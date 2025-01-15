@@ -1,0 +1,59 @@
+[
+    {
+        "title": "EspHome: Crea tus inventos inteligentes sin programar",
+        "author": "Miguel Ángel López Vicente",
+        "date": "06-02-2025 16:45",
+        "desc": "Gracias a ESP32 y ESPHome podrás crear dispositivos IoT sin necesidad de programar. Conecta un par de cables y tendrás tus propios sensores que podrás integrar con Home Assistant o cualquier sistema con MQTT.",
+        "img": "/img/miguelangel.jpeg",
+        "bio": "Programador Backend aficionado al cacharreo y los vídeos juegos cuya meta es automatizar todo, tenga o no sentido hacerlo."
+    },
+    {
+        "title": "Taller TPM",
+        "author": "Jose Antonio Álvarez Bermejo",
+        "date": "06-02-2025 09:15",
+        "desc": "Taller de TPM",
+        "bio": "Profesor de la Universidad de Almería"
+    },
+    {
+        "title": "Charla Ciberseguridad",
+        "author": "Jose Antonio Álvarez Bermejo",
+        "date": "06-02-2025 17:30",
+        "desc": "Charla sobre Ciberseguridad",
+        "bio": "Profesor de la Universidad de Almería"
+    },
+    {
+        "title": "Formación Dual a través de Erasmus",
+        "author": "Federico Martínez Pérez",
+        "date": "05-02-2025 18:45",
+        "desc": "Charla Informativa sobre internacionalización (programas de movilidad, becas Erasmus, convalidaciones,etc.)",
+        "bio": "Profesor del IES Al-Andalus"
+    },
+    {
+        "title": "Charla Durango (La Jaquería)",
+        "author": "Carlos Santisteban",
+        "date": "05-02-2025 19:45",
+        "desc": "Charla sobre el proyecto Durango de mano de su autor por parte de la asociación La Jaquería",
+        "bio": "Profesor de Educación Secundaria, y miembro de la asociación La Jaquería. Autor del proyecto Durango"
+    },
+    {
+        "title": "Charla Tecnología",
+        "author": "ViewNext",
+        "date": "05-02-2025 17:15",
+        "desc": "Charla sobre Tecnología por la empresa del sector ViewNext",
+        "bio": "Viewnext"
+    },
+    {
+        "title": "Charla Tecnología",
+        "author": "Hiberus",
+        "date": "05-02-2025 18:00",
+        "desc": "Charla sobre Tecnología por la empresa del sector Hiberus",
+        "bio": "Hiberus"
+    },
+    {
+        "title": "Charla sobre comunidades",
+        "author": "AlmeríaTech",
+        "date": "06-02-2025 18:45",
+        "desc": "Charla sobre comunidades por la comunidad AlmeríaTech",
+        "bio": "AlmeríaTech"
+    }
+]
