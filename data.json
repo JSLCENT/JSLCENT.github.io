@@ -29,11 +29,11 @@
         "bio": "Profesor del IES Al-Andalus"
     },
     {
-        "title": "Charla Durango (La Jaquería)",
+        "title": "El nacimiento de una Arquitectura",
         "author": "Carlos Santisteban",
         "date": "05-02-2025 19:45",
-        "desc": "Charla sobre el proyecto Durango de mano de su autor por parte de la asociación La Jaquería",
-        "bio": "Profesor de Educación Secundaria, y miembro de la asociación La Jaquería. Autor del proyecto Durango"
+        "desc": "Cómo se diseña una plataforma informática desde 0, tomando como hilo conductor el retro-ordenador Durango.",
+        "bio": "Profesor de Informática, 54 años, usuario de ordenadores (ZX Spectrum) desde 1983. Aficionado al retro-computing y artífice de la plataforma Durango."
     },
     {
         "title": "Charla Tecnología",
