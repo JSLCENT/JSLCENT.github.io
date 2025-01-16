@@ -33,6 +33,7 @@
         "author": "Carlos Santisteban",
         "date": "05-02-2025 19:45",
         "desc": "Cómo se diseña una plataforma informática desde 0, tomando como hilo conductor el retro-ordenador Durango.",
+        "img": "/img/carlos.png",
         "bio": "Profesor de Informática, 54 años, usuario de ordenadores (ZX Spectrum) desde 1983. Aficionado al retro-computing y artífice de la plataforma Durango."
     },
     {
@@ -55,5 +56,19 @@
         "date": "06-02-2025 18:45",
         "desc": "Charla sobre comunidades por la comunidad AlmeríaTech",
         "bio": "AlmeríaTech"
+    },
+    {
+        "title": "Taller Práctico de IA",
+        "author": "ViewNext",
+        "date": "06-02-2025 11:30",
+        "desc": "Taller práctico de IA",
+        "bio": "Viewnext"
+    },
+    {
+        "title": "Taller UnitForce",
+        "author": "UnitForce",
+        "date": "06-02-2025 12:30",
+        "desc": "Taller Tecnologia de la empresa UnitForce",
+        "bio": "UnitForce"
     }
 ]
