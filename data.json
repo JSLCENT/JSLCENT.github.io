@@ -44,11 +44,12 @@
         "bio": "Viewnext"
     },
     {
-        "title": "Charla Tecnología",
-        "author": "Hiberus",
+        "title": "Marea azul infinita",
+        "author": "Miryam Navarrete Ramos, José Antonio Moreno Galdeano y Francisco Navarro De Juan",
         "date": "05-02-2025 18:00",
-        "desc": "Charla sobre Tecnología por la empresa del sector Hiberus",
-        "bio": "Hiberus"
+        "img": "/img/logohiberus.png",
+        "desc": "Durante esta charla explicaremos la trayectoria profesional desde unas prácticas curriculares desde FP superior hasta la actualidad hasta la consolidación de nuestra carrera profesional-personal dentro de hiberus.",
+        "bio": " Miryam Navarrete Ramos (HRBP), José Antonio Moreno Galdeano (Técnico de sistemas) y Francisco Navarro De Juan (Desarrollador FullStack)"
     },
     {
         "title": "Back to the Future: FP Edition",
