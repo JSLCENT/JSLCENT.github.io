@@ -73,5 +73,12 @@
         "date": "06-02-2025 12:30",
         "desc": "Taller Tecnologia de la empresa UnitForce",
         "bio": "UnitForce"
+    },
+    {
+        "title": "Charla IkosTech",
+        "author": "IkosTech",
+        "date": "06-02-2025 19:45",
+        "desc": "Charla sobre IkosTech",
+        "bio": "IkosTech"
     }
 ]
