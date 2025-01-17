@@ -55,5 +55,17 @@ function renderDetails() {
         if (metaDescription) {
             metaDescription.setAttribute('content', data.desc);
         }
+        if(bio2){
+            const bio2autor = document.querySelector('#bioautor2');
+            bio2autor.style = `display: block;`;
+            const bio2 = document.querySelector('#bio2');
+            bio2.innerHTML = `
+                ${data.bio2}
+            `;
+        }
+        if(data.img2){
+            const img2 = document.querySelector('#imgponente2');
+            img2.src= `${data.img2}`;
+        }
     });
 }
