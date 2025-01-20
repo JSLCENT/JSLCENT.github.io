@@ -2,7 +2,7 @@
     {
         "title": "EspHome: Crea tus inventos inteligentes sin programar",
         "author": "Miguel Ángel López Vicente",
-        "date": "06-02-2025 16:45",
+        "date": "05-02-2025 18:00",
         "desc": "Gracias a ESP32 y ESPHome podrás crear dispositivos IoT sin necesidad de programar. Conecta un par de cables y tendrás tus propios sensores que podrás integrar con Home Assistant o cualquier sistema con MQTT.",
         "img": "/img/miguelangel.jpeg",
         "bio": "Programador Backend aficionado al cacharreo y los vídeos juegos cuya meta es automatizar todo, tenga o no sentido hacerlo."
@@ -10,14 +10,14 @@
     {
         "title": "Taller TPM",
         "author": "Jose Antonio Álvarez Bermejo",
-        "date": "06-02-2025 09:15",
+        "date": "06-02-2025 17:30",
         "desc": "Taller de TPM",
         "bio": "Profesor de la Universidad de Almería"
     },
     {
         "title": "Charla Ciberseguridad",
         "author": "Jose Antonio Álvarez Bermejo",
-        "date": "06-02-2025 17:30",
+        "date": "06-02-2025 9:15",
         "desc": "Charla sobre Ciberseguridad",
         "bio": "Profesor de la Universidad de Almería"
     },
@@ -31,7 +31,7 @@
     {
         "title": "El nacimiento de una Arquitectura",
         "author": "Carlos Santisteban",
-        "date": "05-02-2025 19:45",
+        "date": "05-02-2025 20:30",
         "desc": "Cómo se diseña una plataforma informática desde 0, tomando como hilo conductor el retro-ordenador Durango.",
         "img": "/img/carlos.png",
         "bio": "Profesor de Informática, 54 años, usuario de ordenadores (ZX Spectrum) desde 1983. Aficionado al retro-computing y artífice de la plataforma Durango."
@@ -46,7 +46,7 @@
     {
         "title": "Marea azul infinita",
         "author": "Miryam Navarrete Ramos, José Antonio Moreno Galdeano y Francisco Navarro De Juan",
-        "date": "05-02-2025 18:00",
+        "date": "06-02-2025 10:15",
         "img": "/img/logohiberus.png",
         "desc": "Durante esta charla explicaremos la trayectoria profesional desde unas prácticas curriculares desde FP superior hasta la actualidad hasta la consolidación de nuestra carrera profesional-personal dentro de hiberus.",
         "bio": " Miryam Navarrete Ramos (HRBP), José Antonio Moreno Galdeano (Técnico de sistemas) y Francisco Navarro De Juan (Desarrollador FullStack)"
@@ -54,7 +54,7 @@
     {
         "title": "Back to the Future: FP Edition",
         "author": "Adrián Alonso y Ruben Sánchez",
-        "date": "06-02-2025 18:45",
+        "date": "05-02-2025 19:30",
         "img": "/img/ruben.jpeg",
         "img2": "/img/adrian.jpeg",
         "desc": "¿Sabes qué te encontrarás al dar el salto al mercado laboral? En esta charla motivacional e interactiva, exploraremos todo lo que necesitas saber para afrontar con confianza tus primeros pasos en el sector tech. Hablaremos desde cómo preparar tu primera entrevista hasta entender las expectativas salariales, seguiremos con los stacks tecnológicos más demandados y las diferentes trayectorias profesionales que podrás seguir. Además, hablaremos de otros temas importantes en el día a día de nuestras posiciones, la importancia de las soft skills, el impacto de los equipos bien estructurados y el valor de participar en comunidades tecnológicas. ¡Prepárate para descubrir cómo empezar con buen pie tu carrera en tecnología!",
@@ -64,21 +64,21 @@
     {
         "title": "Taller Práctico de IA",
         "author": "ViewNext",
-        "date": "06-02-2025 11:30",
+        "date": "06-02-2025 17:45",
         "desc": "Taller práctico de IA",
         "bio": "Viewnext"
     },
     {
         "title": "Taller UnitForce",
         "author": "UnitForce",
-        "date": "06-02-2025 12:30",
+        "date": "06-02-2025 19:15",
         "desc": "Taller Tecnologia de la empresa UnitForce",
         "bio": "UnitForce"
     },
     {
         "title": "Charla IkosTech",
         "author": "IkosTech",
-        "date": "06-02-2025 19:45",
+        "date": "06-02-2025 11:30",
         "desc": "Charla sobre IkosTech",
         "bio": "IkosTech"
     }
