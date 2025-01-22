@@ -81,5 +81,11 @@
         "date": "06-02-2025 11:30",
         "desc": "Charla sobre IkosTech",
         "bio": "IkosTech"
+    },{
+        "title": "Charla ArcadeBits",
+        "author": "ArcadeBits",
+        "date": "06-02-2025 12:30",
+        "desc": "Charla sobre ArcadeBits",
+        "bio": "ArcadeBits"
     }
 ]
