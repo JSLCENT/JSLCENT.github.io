@@ -91,8 +91,9 @@
     },
     {
         "title": "Taller de Frontend con IA",
-        "author": "Unit4",
+        "author": "Mario (Unit4)",
         "date": "06-02-2025 19:15",
+        "img": "/img/FotoMario.jpeg",
         "desc": "Taller de Frontend con IA",
         "bio": "Soy Ingeniero Superior en Informática por la Universidad de Almería. Comencé mi carrera como Programador Junior y más tarde Senior en Clave Informática en Almería, donde trabajé desde 2003 hasta 2007 en el desarrollo de un ERP Agroalimentario. Luego, fui contratado por Getronics(Tecnocom) en Almería como Programador Senior, donde estuve desde 2007 hasta 2011 desarrollando un ERP Agricola (ERP Agro) en Hispatec. Desde 2011, trabajo en Unit4 en Granada (en remoto desde 2019), donde he desempeñado varios cargos de perfil técnico, desde Standard Engineer a Lead Architect. A lo largo de mi carrera, he adquirido una amplia experiencia en programación y arquitectura, y he trabajado en proyectos de gran envergadura tales como la migracion del ERP de Unit4 a la nube o la adopcion de Microfrontends como solucion multiplataforma escalable en el Frontend."
     }
