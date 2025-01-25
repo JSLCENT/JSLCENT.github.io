@@ -41,6 +41,8 @@
         "author": "César Rodríguez González y Miguel Moya Morales",
         "date": "05-02-2025 17:15",
         "desc": "Contenido: <ol><li>Que es la IA Generativa.</li><li>Modelos Fundacionales.</li><li>Como los entrenamos.</li><li>Como funciona el RAG.</li><li>Prompting.</li><li>Problemas.</li><li>Recomendaciones.</li></ol>",
+        "img": "/img/CesarRodriguezGonzalez.png",
+        "img2": "/img/MiguelMoyaMorales.png",
         "bio2": "Miguel Moya Morales es Ingeniero Industrial Superior por la Universidad de Málaga. Trabajando en Viewnext desde junio de 2016. Actualmente Scrum Master/Project Manager de NextAI - Proyecto de IA Gen de Viewnext. PeM (People Manager) de la práctica de IA & Analytics. Actual Talent Ambassador de Viewnext en Almería.",
         "bio": "César Rodríguez González es Téc. Sup. Desarrollo de APP WEB. Empleado de Viewnext desde julio del 2024 aunque previamente ya estaba vinculado con la empresa por sus prácticas. IA Developer. Certificado en Watson X."
     },
@@ -67,6 +69,8 @@
         "author": "César Rodríguez González y Miguel Moya Morales",
         "date": "06-02-2025 17:45",
         "desc": "Contenido:<ol><li>Planteamos una idea.</li><li>Generación de prompts</li><li> Generación y ejecución de código</li></ol>",
+        "img": "/img/CesarRodriguezGonzalez.png",
+        "img2": "/img/MiguelMoyaMorales.png",
         "bio2": "Miguel Moya Morales es Ingeniero Industrial Superior por la Universidad de Málaga. Trabajando en Viewnext desde junio de 2016. Actualmente Scrum Master/Project Manager de NextAI - Proyecto de IA Gen de Viewnext. PeM (People Manager) de la práctica de IA & Analytics. Actual Talent Ambassador de Viewnext en Almería.",
         "bio": "César Rodríguez González es Téc. Sup. Desarrollo de APP WEB. Empleado de Viewnext desde julio del 2024 aunque previamente ya estaba vinculado con la empresa por sus prácticas. IA Developer. Certificado en Watson X."
     },
