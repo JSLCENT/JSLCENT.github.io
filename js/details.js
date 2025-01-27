@@ -67,5 +67,20 @@ function renderDetails() {
             const img2 = document.querySelector('#imgponente2');
             img2.src= `${data.img2}`;
         }
+
+        if(data.bio3){
+            const bio3autor = document.querySelector('#bioautor3');
+            bio3autor.style = `display: block;`;
+            const bio3 = document.querySelector('#bio3');
+            bio3.innerHTML = `
+                ${data.bio3}
+            `;
+        }
+
+        if(data.img3){
+            const img3 = document.querySelector('#imgponente3');
+            img3.src= `${data.img3}`;
+        }
+        
     });
 }
