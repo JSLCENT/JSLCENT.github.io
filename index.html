@@ -1,286 +1,275 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/img/favicon.svg">
-    <title>XXI Jornadas SLCENT - 5,6 y 7 de Febrero</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>XXII Jornadas SLCENT 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 text-gray-800">
-    <!-- Nav -->
-    <nav class="bg-blue-600 text-white p-4 flex flex-col md:flex-row items-center justify-between">
-        <h1 class="text-2xl font-bold mb-4 md:mb-0">JSLCENT XXI</h1>
-        <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
-            <li><a href="#inicio" class="hover:underline">Inicio</a></li>
-            <li><a href="#jornadas" class="hover:underline">Jornadas</a></li>
-            <li><a href="#objetivos" class="hover:underline">Objetivos</a></li>
-            <li><a href="#programa" class="hover:underline">Programa</a></li>
-            <li><a href="#colaboradores" class="hover:underline">Colaboradores</a></li>
-            <li><a href="#contacto" class="hover:underline">Contacto</a></li>
-        </ul>
+
+<body class="bg-gray-50">
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-purple-600">SLCENT XXII</h1>
+
+            <!-- Botón hamburguesa para móvil -->
+            <button id="menuToggle" class="md:hidden flex flex-col gap-1.5 cursor-pointer">
+                <span class="w-6 h-0.5 bg-gray-700 transition-all"></span>
+                <span class="w-6 h-0.5 bg-gray-700 transition-all"></span>
+                <span class="w-6 h-0.5 bg-gray-700 transition-all"></span>
+            </button>
+
+            <!-- Menú de escritorio -->
+            <ul id="navMenu" class="hidden md:flex gap-6">
+                <li><a href="#inicio" class="text-gray-700 hover:text-purple-600">Inicio</a></li>
+                <li><a href="#jornadas" class="text-gray-700 hover:text-purple-600">Jornadas</a></li>
+                <li><a href="#objetivos" class="text-gray-700 hover:text-purple-600">Objetivos</a></li>
+                <li><a href="#programa" class="text-gray-700 hover:text-purple-600">Programa</a></li>
+                <li><a href="#colaboradores" class="text-gray-700 hover:text-purple-600">Colaboradores</a></li>
+                <li class="relative group">
+                    <a href="#" class="text-gray-700 hover:text-purple-600 flex items-center gap-1">
+                        Ediciones anteriores
+                    </a>
+                    <ul
+                        class="absolute left-0 mt-0 w-48 bg-white shadow-lg rounded-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-10">
+                        <li><a href="/2025/"
+                                class="block px-4 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600 rounded-lg">XXI
+                                Jornadas 2025</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Menú móvil -->
+        <div id="mobileMenu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <ul class="flex flex-col gap-2 px-4 py-4">
+                <li><a href="#inicio" class="block text-gray-700 hover:text-purple-600 py-2">Inicio</a></li>
+                <li><a href="#jornadas" class="block text-gray-700 hover:text-purple-600 py-2">Jornadas</a></li>
+                <li><a href="#objetivos" class="block text-gray-700 hover:text-purple-600 py-2">Objetivos</a></li>
+                <li><a href="#programa" class="block text-gray-700 hover:text-purple-600 py-2">Programa</a></li>
+                <li><a href="#colaboradores" class="block text-gray-700 hover:text-purple-600 py-2">Colaboradores</a>
+                </li>
+                <li><a href="/2025/" class="block text-gray-700 hover:text-purple-600 py-2">XXI Jornadas 2025</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <!-- Encabezado -->
-    <header id="inicio" class="bg-blue-600 text-white p-16 flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-4">
-       <img src="/img/CARTELXXI.jpg" alt="Cartel del evento" class="w-full md:w-1/4">
-        <div>
-            <h2 class="text-4xl font-bold text-center md:text-left">XXI Jornadas SLCENT</h2>
-            <p class="mt-4 text-xl text-center md:text-left">Jornadas de Software Libre, Cultura Emprendedora y Nuevas Tecnologías</p>
-            <p class="mt-2 text-lg text-center md:text-left">"3 días de Nuevas Tecnologías, Cultura Emprendedora y Software Libre"</p>
-        </div>
-    </header>
 
-    <!-- Objetivos -->
-    <section id="jornadas" class="bg-gray-200 p-8">
-        <h2 class="text-2xl font-bold mb-4">Jornadas</h2>
-        <p class="mb-4">Los días <strong>5,6 y 7 de febrero </strong>, en el IES Al-Andalus se celebrarán las XXI Jornadas SLCENT (Software Libre, Cultura Emprendedora y Nuevas Tecnologías).</p>
-        <p class="mb-4">El IES Al-Andalus, apuesta por la innovación tecnológica a través de estas jornadas que no solo aportan en el ámbito tecnológico; sino que también aportan al espíritu emprendedor, el conocimiento libre y la creatividad.</p>
-        <p class="mb-4">Las Jornadas SLCENT, estan dirigidas no solo a alumnos y a la comunidad Educativa sino que cualquier persona interesada, puede asistir a las charlas y conocer tanto a empresas del sector, como las nuevas tendencias y tecnologías en auge.</p>
+
+    <!-- Sección Inicio -->
+    <section id="inicio" class="bg-gradient-to-r from-purple-600 to-purple-800 text-white py-20">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h2 class="text-5xl font-bold mb-4">XXII Jornadas SLCENT</h2>
+            <p class="text-xl mb-6">4, 5 y 6 de Febrero de 2026</p>
+            <p class="text-lg mb-8">IES Al-Andalus</p>
+        </div>
     </section>
 
-    <!-- Objetivos -->
-    <section id="objetivos" class="p-8">
-        <h2 class="text-2xl font-bold mb-4">Objetivos</h2>
-        <p class="mb-4">Los objetivos de las JSLCENT son:</p>
-           
-        <p>
-            <ul class="list-disc list-inside space-y-2 ml-4">
-            <li><strong>Acercar a las novedades e innovaciones tecnológicas</strong> del sector de la informática y del Software Libre.</li>
-            <li><strong>Complementar al formación académica, competencias y perfil profesional</strong> del alumnado, centrandose en los ciclos Formativos de Informática.</li>
-            <li><strong>Compartir el conocimiento y fomentar relaciones de colaboración</strong> sin barreras.</li>
-            <li><strong>Fomentar el espíritu emprendedor y la creatividad empresarial</strong> entre los asistentes.</li>
-            <li><strong>Despertar el pensamiento crítico y constructivo</strong> entre los asistentes acerca del desarrollo y evolución del serctor informático.</li>
-            <li><strong>Ser un foro de intercambio de conocimiento y experiencia</strong> fomentando la participación y colaboración del alumnado integrado en el mundo laboral o dirigiendo su propia empresa.</li>
-            </ul>
-        </p>
+    <section id="jornadas" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Jornadas</h2>
+            <p class="text-gray-700 text-lg leading-relaxed">
+                Las XXII Jornadas SLCENT son un evento anual que reúne a profesionales y entusiastas de la educación y
+                la tecnología. Durante tres días, se llevarán a cabo conferencias, talleres y mesas redondas enfocadas
+                en las últimas tendencias y mejores prácticas en el ámbito educativo.
+            </p>
+        </div>
     </section>
 
-    <!-- Programa -->
-    <section id="programa" class="bg-gray-200 p-8">
-        <h2 class="text-2xl font-bold mb-4">Programa</h2>
-
-        <!-- Día 5 de Enero - Visitas-->
-
-        <div class="mb-8">
-            <h3 class="text-xl font-semibold mb-2">Miércoles, 5 de febrero - Visitas de Otros Institutos (Aula Ateca)</h3>
-            <div class="overflow-x-auto">
-                <table class="min-w-full bg-white border border-gray-400">
-                    <thead>
-                        <tr>
-                            <th class="py-2 px-2 border-b border-r text-center">Hora</th>
-                            <th class="py-2 px-4 border-b text-center">Actividad</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">09:15 - 13:30</td>
-                            <td class="py-2 px-4 border-b">Visita de otros institutos para ver trabajos realizados por los cursos de especialización.</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <!-- Día 5 de febrero -->
-        <div class="mb-8">
-            <h3 class="text-xl font-semibold mb-2">Miércoles, 5 de febrero - Charlas para todos los asistentes (Salón de actos)</h3>
-            <div class="overflow-x-auto">
-                <table class="min-w-full bg-white border border-gray-400">
-                    <thead>
-                        <tr>
-                            <th class="py-2 px-2 border-b border-r text-center">Hora</th>
-                            <th class="py-2 px-4 border-b text-center">Actividad</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">16:00 - 16:30</td>
-                            <td class="py-2 px-4 border-b">Apertura para los asistentes.</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">16:30 - 17:15</td>
-                            <td class="py-2 px-4 border-b">Bienvenida y Presentación de las jornadas</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">17:15 - 18:00</td>
-                            <td class="py-2 px-4 border-b"><a href="charla.html?id=5" class="hover:underline">ViewNext - IA Generativa, la vitamina del sector IT y mucho más </a></td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">18:00 - 18:45</td>
-                            <td class="py-2 px-4 border-b"><a href="charla.html?id=0" class="hover:underline">Miguel Ángel López Vicente - EspHome: Crea tus inventos inteligentes sin programar</a></td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">18:45 - 19:30</td>
-                            <td class="py-2 px-4 border-b"><a href="charla.html?id=3" class="hover:underline">Federico Martínez - Formación Dual a través de Erasmus</a></td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r  text-center">19:30 - 19:45</td>
-                            <td class="py-2 px-4 border-b">Descanso (Mesa Redonda)</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">19:45 - 20:30</td>
-                            <td class="py-2 px-4 border-b"><a href="charla.html?id=7" class="hover:underline">AlmeríaTech - Back to the Future: FP Edition</a></td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">20:30 - 21:15</td>
-                            <td class="py-2 px-4 border-b"><a href="charla.html?id=4" class="hover:underline">Carlos Santisteban (La Jaquería) - El nacimiento de una Arquitectura</a></td>
-                        </tr>
-                       
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <!-- Día 6 de febrero -->
-        <div class="mb-8">
-            <h3 class="text-xl font-semibold mb-2">Jueves, 6 de febrero - Charlas para todos los asistentes (Salón de actos)</h3>
-            <div class="overflow-x-auto">
-                <table class="min-w-full bg-white border border-gray-400">
-                    <thead>
-                        <tr>
-                            <th class="py-2 px-2 border-b border-r text-center">Hora</th>
-                            <th class="py-2 px-4 border-b text-center">Actividad</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">09:00 - 9:15</td>
-                            <td class="py-2 px-4 border-b">Apertura para los asistentes</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">09:15 - 10:15</td>
-                            <td class="py-2 px-4 border-b"><a href="charla.html?id=2" class="hover:underline" >Jose Antonio Álvarez Bermejo - Técnicas de análisis de ransomware</a></td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">10:15 - 11:15</td>
-                            <td class="py-2 px-4 border-b"><a href="charla.html?id=13" class="hover:underline">Francisco González López - Ejercicio Red Team sobre Cajeros Automaticos </a></td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">11:15 - 11:30</td>
-                            <td class="py-2 px-4 border-b">Descanso</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">11:30 - 12:30</td>
-                            <td class="py-2 px-4 border-b"><a href="charla.html?id=11" class="hover:underline">ArcadeBits - ¿Es posible trabajar en lo que me gusta?</a></td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">12:30 - 13:30</td>
-                            <td class="py-2 px-4 border-b"><a href="charla.html?id=10" class="hover:underline">IkosTech - Uso de Microcontroladores con sensores y conexión con Angular</a></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="mb-8">
-            <h3 class="text-xl font-semibold mb-2">Jueves, 6 de febrero - Talleres para el alumnado del centro en el Aula 107 (DAW) (Require registro: <a href="https://forms.gle/Lu19A5R8cepsLbqB7" target="_blank" class="hover:underline text-blue-600"> Inscribete aquí </a>)</h3>
-            <div class="overflow-x-auto">
-                <table class="min-w-full bg-white border border-gray-400">
-                    <thead>
-                        <tr>
-                            <th class="py-2 px-2 border-b border-r text-center">Hora</th>
-                            <th class="py-2 px-4 border-b text-center">Actividad</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">16:15 - 16:45</td>
-                            <td class="py-2 px-4 border-b">Apertura para los asistentes</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">16:45 - 17:45</td>
-                            <td class="py-2 px-4 border-b"><a href="charla.html?id=1" class="hover:underline">Jose Antonio Álvarez Bermejo - Taller de análisis de ransomware</a></td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">17:45 - 18:45</td>
-                            <td class="py-2 px-4 border-b"><a href="charla.html?id=8" class="hover:underline">ViewNext - Programando con IA generativa</a></td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">18:45 - 19:15</td>
-                            <td class="py-2 px-4 border-b">Descanso</td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">19:15 - 20:15</td>
-                            <td class="py-2 px-4 border-b"><a href="charla.html?id=12" class="hover:underline">Unit4 - Taller FrontEnd con IA</a></td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">20:15 - 21:00</td>
-                            <td class="py-2 px-4 border-b"><a href="charla.html?id=6" class="hover:underline">Hiberus - Marea azul infinita (Charla)</a></td>
-                        </tr>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">21:00</td>
-                            <td class="py-2 px-4 border-b">Clausura</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-
-        <!-- Día 7 de febrero -->
-        <div class="mb-8">
-            <h3 class="text-xl font-semibold mb-2">Viernes, 7 de febrero - Visitas del alumnado por la mañana (Aula Ateca)</h3>
-            <div class="overflow-x-auto">
-                <table class="min-w-full bg-white border border-gray-400">
-                    <thead>
-                        <tr>
-                            <th class="py-2 px-2 border-b border-r text-center">Hora</th>
-                            <th class="py-2 px-4 border-b text-center">Actividad</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="py-2 px-2 border-b border-r text-center">09:15 - 13:30</td>
-                            <td class="py-2 px-4 border-b">Visitas para ver los proyectos realizados por los alumnos de cursos de especialización.</td>
-                        </tr>
-                    </tbody>
-                </table>
+    <!-- Sección Objetivos -->
+    <section id="objetivos" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Objetivos</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-purple-50 p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold text-purple-600 mb-3">Objetivo 1</h3>
+                    <p class="text-gray-700">Acercar a las novedades e innovaciones tecnológicas del sector de la
+                        informática y del Software Libre.</p>
+                </div>
+                <div class="bg-purple-50 p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold text-purple-600 mb-3">Objetivo 2</h3>
+                    <p class="text-gray-700">Complementar al formación académica, competencias y perfil profesional
+                        del alumnado, centrandose en los ciclos Formativos de Informática.</p>
+                </div>
+                <div class="bg-purple-50 p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold text-purple-600 mb-3">Objetivo 3</h3>
+                    <p class="text-gray-700">Compartir el conocimiento y fomentar relaciones de colaboración sin
+                        barreras.</p>
+                </div>
+                <div class="bg-purple-50 p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold text-purple-600 mb-3">Objetivo 4</h3>
+                    <p class="text-gray-700">Promover el uso de tecnologías abiertas y colaborativas en el ámbito
+                        educativo.</p>
+                </div>
+                <div class="bg-purple-50 p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold text-purple-600 mb-3">Objetivo 5</h3>
+                    <p class="text-gray-700">Facilitar el networking entre profesionales, estudiantes y empresas del
+                        sector tecnológico.</p>
+                </div>
+                <div class="bg-purple-50 p-6 rounded-lg shadow">
+                    <h3 class="text-xl font-semibold text-purple-600 mb-3">Objetivo 6</h3>
+                    <p class="text-gray-700">Impulsar la transferencia de conocimiento y experiencias prácticas en
+                        el mundo laboral.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Colaboradores -->
-    <section id="colaboradores" class="p-8">
-        <h2 class="text-2xl font-bold mb-4">Colaboradores</h2>
-        <div class="flex flex-wrap space-x-4">
-            <a href="https://www.viewnext.com/" title="ViewNext"><img src="/img/viewnext.png" alt="ViewNext" class="h-16 mb-4"></a>
-            <a href="https://www.hiberus.com/" title="Hiberus"><img src="/img/hiberuslogocolab.png" alt="Hiberus Tecnología" class="h-24 mb-2"></a>
-            <a href="https://lajaqueria.org" title="La Jaquería"><img src="/img/jaqueria.png" alt="La Jaquería" class="h-24 mb-4"></a>
-            <a href="https://www.youtube.com/@lachozadigital" title="La Choza Digital"><img src="/img/choza.jpg" alt="La Choza Digital" class="h-24 mb-4"></a>
-            <a href="https://www.unit4.com/" title="Unit4"><img src="/img/LogoUnit4.jpeg" alt="Unit4" class="h-20 mb-4"></a>
-            <a href="https://www.almeriatech.es/" title="AlmeriaTech"><img src="/img/almeria-tech.svg" alt="AlmeriaTech" class="h-20 mb-4"></a>
-            <a href="https://ual.es/" title="Universidad de Almería"><img src="/img/logoual.png" alt="UAL" class="h-20 mb-4"></a>
-            <a href="https://arcadebits.es/" title="ArcadeBits"><img src="/img/logoarcade.jpeg" alt="ArcadeBits" class="h-20 mb-4"></a>
-            <a href="https://iesalandalus.org/" title="IES Al-Andalus"><img src="/img/logoies.png" alt="IES Al-Andalus" class="h-20 mb-4"></a>
-            <a href="https://blogsaverroes.juntadeandalucia.es/frantejada/" title="TDE"><img src="/img/logoTDE.png" alt="TDE" class="h-20 mb-4"></a>
-            <a href="https://juntadeandalucia.es/" title="Junta de Andalucia"><img src="/img/LogoJA.png" alt="juntadeandalucia" class="h-20 mb-4"></a>
-            <a href="https://iesalandalus.org/" title="Aula Ateca"><img src="/img/AulaAteca.png" alt="Aula Ateca" class="h-20 mb-4"></a>
-            <a href="https://iesalandalus.org/joomla/index.php/aula-emprendimiento-al-emprendelus" title="Al Empréndelus"><img src="/img/AlEmprendelus.png" alt="Al Emprendelus" class="h-20 mb-4"></a>
-            <a href="https://iesalandalus.org/joomla/index.php/aula-emprendimiento-al-emprendelus" title="Erasmus +"><img src="/img/erasmuspluslogo.png" alt="Erasmus +" class="h-20 mb-4"></a>
+    <!-- Sección Programa -->
+    <section id="programa" class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Programa</h2>
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow border-l-4 border-purple-600">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-2">4 de Febrero (Charlas para todos los
+                        asistentes)</h3>
+                    <p class="text-gray-700"><strong>16:15</strong> - Apertura para asistentes</p>
+                    <p class="text-gray-700"><strong>16:30</strong> - Inauguración de las jornadas</p>
+                    <p class="text-gray-700"><strong>17:00</strong> - ViewNext - Charla</p>
+                    <p class="text-gray-700"><strong>17:45</strong> - Miguel Ángel López Vicente (La Choza Digital)
+                        - Charla</p>
+                    <p class="text-gray-700"><strong>18:30</strong> - Federico Martínez - Formación Dual a través de
+                        Erasmus</p>
+                    <p class="text-gray-700"><strong>19:15</strong> - Descanso - Charlas Rápidas</p>
+                    <p class="text-gray-700"><strong>19:30</strong> - Almería Tech - Infraestructura como Código</p>
+                    <p class="text-gray-700"><strong>20:15</strong> - Carlos Santisteban (La Jaquería) - Charla</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow border-l-4 border-purple-600">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-2">5 de Febrero (Mañana) (Charlas para todos los
+                        asistentes)</h3>
+                    <p class="text-gray-700"><strong>09:00</strong> - Apertura para los asistntes</p>
+                    <p class="text-gray-700"><strong>09:30</strong> - Jose Antonio Álvarez Bermejo - Ciberseguridad
+                    </p>
+                    <p class="text-gray-700"><strong>10:15</strong> - Jesús Marín - Charla</p>
+                    <p class="text-gray-700"><strong>11:00</strong> - Descanso 30 minutos</p>
+                    <p class="text-gray-700"><strong>11:30</strong> - Enrique Fernández - Charla</p>
+                    <p class="text-gray-700"><strong>12:15</strong> - Ivan (IOBuilders) - Charla Blockchain</p>
+                    <p class="text-gray-700"><strong>13:00</strong> - espacio disponible</p>
 
-
-            <!-- Añade más logos según sea necesario -->
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow border-l-4 border-purple-600">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-2">5 de Febrero (Tarde) - Talleres</h3>
+                    <p class="text-gray-700 mb-2"><strong>09:00</strong> - Comunicaciones</p>
+                    <p class="text-gray-700"><strong>12:00</strong> - Clausura</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow border-l-4 border-purple-600">
+                    <h3 class="text-2xl font-bold text-gray-900 mb-2">6 de Febrero - Visitas</h3>
+                    <p class="text-gray-700 mb-2"><strong>09:00</strong> - Visitas de alumnos del centro y de otros
+                        centros, para ver los trabajos realizdos por los alumnos del curso de especialización (Aula
+                        Ateca)</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Contacto -->
-    <section id="contacto" class="bg-gray-200 p-8">
-        <h2 class="text-2xl font-bold mb-4">Contacto</h2>
-        <p>Para más información, contáctanos en: <a href="mailto:victor.suarez@iesalandalus.org" class="text-blue-500 hover:underline">victor.suarez@iesalandalus.org</a></p>
+    <!-- Sección Colaboradores -->
+    <section id="colaboradores" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-4xl font-bold text-gray-900 mb-12 text-center">Colaboradores</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-6 gap-8 text-center">
+                <div class="bg-gray-100 p-8 rounded-lg">
+                    <p class="text-gray-700 font-semibold"><a href="https://iesalandalus.org/" target="_blank"
+                            title="IES AlAndalus"><img src="/img/logoies.png" alt="Logo IES Al-Andalus"
+                                class="mx-auto"></a></p>
+                </div>
+                <div class="bg-gray-100 p-8 rounded-lg">
+                    <p class="text-gray-700 font-semibold flex items-center justify-center h-full"><a
+                            href="https://www.viewnext.com/" target="_blank" title="ViewNext"><img
+                                src="/img/viewnext.png" alt="Logo Viewnext" class="mx-auto"></a></p>
+                </div>
+                <div class="bg-gray-100 p-8 rounded-lg">
+                    <p class="text-gray-700 font-semibold flex items-center justify-center h-full"><a
+                            href="https://lajaqueria.org" title="La Jaquería" target="_blank"><img
+                                src="/img/jaqueria.png" alt="La Jaquería" class="mx-auto"></a></p>
+                </div>
+                <div class="bg-gray-100 p-8 rounded-lg">
+                    <p class="text-gray-700 font-semibold flex items-center justify-center h-full"><a
+                            href="https://www.hiberus.com/" title="Híberus" target="_blank"><img
+                                src="/img/hiberuslogocolab.png" alt="Hiberus" class="mx-auto"></a></p>
+                </div>
+                <div class="bg-gray-100 p-8 rounded-lg">
+                    <p class="text-gray-700 font-semibold flex items-center justify-center h-full"><a
+                            href="https://ual.es/" title="Universidad de Almería" target="_blank"><img
+                                src="/img/logoual.png" alt="UAL" class="mx-auto"></a></p>
+                </div>
+                <div class="bg-gray-100 p-8 rounded-lg">
+                    <p class="text-gray-700 font-semibold flex items-center justify-center h-full"><a
+                            href="https://www.youtube.com/@lachozadigital" title="La Choza Digital" target="_blank"><img
+                                src="/img/choza.jpg" alt="Hiberus" class="mx-auto"></a></p>
+                </div>
+                <div class="bg-gray-100 p-8 rounded-lg">
+                    <p class="text-gray-700 font-semibold flex items-center justify-center h-full"><a
+                            href="https://io.builders/" title="IOBuilders" target="_blank"><img
+                                src="/img/IOB.svg" alt="IOBuilders" class="mx-auto"></a></p>
+                </div>
+                <div class="bg-gray-100 p-8 rounded-lg">
+                    <p class="text-gray-700 font-semibold flex items-center justify-center h-full"><a
+                            href="https://blogsaverroes.juntadeandalucia.es/frantejada/" title="TDE"
+                            target="_blank"><img src="/img/logoTDE.png" alt="TDE" class="mx-auto"></a></p>
+                </div>
+                <div class="bg-gray-100 p-8 rounded-lg">
+                    <p class="text-gray-700 font-semibold flex items-center justify-center h-full"><a
+                            href="https://juntadeandalucia.es/" title="Junta de Andalucia" target="_blank"><img
+                                src="/img/LogoJA.png" alt="Junta de Andalucia" class="mx-auto"></a></p>
+                </div>
+                <div class="bg-gray-100 p-8 rounded-lg">
+                    <p class="text-gray-700 font-semibold flex items-center justify-center h-full"><a
+                            href="https://iesalandalus.org/" title="Aula Ateca" target="_blank"><img
+                                src="/img/AulaAteca.png" alt="Aula Ateca" class="mx-auto"></a></p>
+                </div>
+                <div class="bg-gray-100 p-8 rounded-lg">
+                    <p class="text-gray-700 font-semibold flex items-center justify-center h-full"><a
+                            href="https://iesalandalus.org/joomla/index.php/aula-emprendimiento-al-emprendelus"
+                            title="Al-Emprendelus" target="_blank"><img src="/img/AlEmprendelus.png"
+                                alt="Al-Emprendelus" class="mx-auto"></a></p>
+                </div>
+                <div class="bg-gray-100 p-8 rounded-lg">
+                    <p class="text-gray-700 font-semibold flex items-center justify-center h-full"><a
+                            href="https://iesalandalus.org/joomla/index.php/aula-emprendimiento-al-emprendelus"
+                            title="Erasmus+" target="_blank"><img src="/img/erasmuspluslogo.png" alt="Erasmus+"
+                                class="mx-auto"></a></p>
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-blue-600 text-white text-center p-4">
-        <p>&copy; 2025 <a href="https://iesalandalus.org" class="hover:underline">IES Al-Andalus</a></p>
-        <div class="flex justify-center space-x-4 mt-2">
-            <a href="https://x.com/iesalandalusorg" target="_blank" title="X">
-                <img src="/img/xlogo.webp" alt="X Logo" class="h-6">
-            </a>
-            <a href="https://www.instagram.com/alandaluscda/" target="_blank" title="Instagram">
-                <img src="img/instagram.webp" alt="Instagram Logo" class="h-6">
-            </a>
-            <a href="https://www.facebook.com/iesalandalusAlmeria/" target="_blank" title="Facebook">
-                <img src="/img/facebooklogo.png" alt="Facebook Logo" class="h-6">
-            </a>
+    <footer class="bg-gray-900 text-white py-8 mt-auto">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p>&copy; 2026 <a href="https://www.iesalandalus.org" target="_blank"
+                    class="underline hover:text-blue-400">IES Al-Andalus</a>. Todos los derechos reservados.</p>
+            <div class="flex justify-center space-x-4 mt-2">
+                <a href="https://x.com/iesalandalusorg" target="_blank" title="X">
+                    <img src="/img/xlogo.webp" alt="X Logo" class="h-6">
+                </a>
+                <a href="https://www.instagram.com/alandaluscda/" target="_blank" title="Instagram">
+                    <img src="img/instagram.webp" alt="Instagram Logo" class="h-6">
+                </a>
+                <a href="https://www.facebook.com/iesalandalusAlmeria/" target="_blank" title="Facebook">
+                    <img src="/img/facebooklogo.png" alt="Facebook Logo" class="h-6">
+                </a>
+            </div>
         </div>
     </footer>
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const navMenu = document.getElementById('navMenu');
+
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Cerrar menú cuando se hace clic en un enlace
+        document.querySelectorAll('#mobileMenu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
 </body>
+
 </html>
