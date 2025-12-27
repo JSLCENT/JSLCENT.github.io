@@ -17,7 +17,7 @@ function renderTalkDetails(data) {
                 <div class="bg-white p-8 rounded-lg shadow-md text-center">
                     <img src="${author.picture}" alt="Foto del ponente" class="w-40 h-40 rounded-full mx-auto mb-4 object-cover bg-gray-200">
                     <h3 class="text-2xl font-bold text-gray-900 mb-2">${author.name}</h3>
-                    <p class="text-purple-600 font-semibold mb-4">Puesto / Especialidad</p>
+                    <p class="text-purple-600 font-semibold mb-4">${author.charge}</p>
                     <p class="text-gray-700 leading-relaxed">
                         ${author.bio}
                     </p>

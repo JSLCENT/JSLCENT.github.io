@@ -20,4 +20,47 @@
         {"name": "Miguel Ángel López Vicente", "charge": "Developer", "bio": "Miguel Ángel López Vicente es un desarrollador con amplia experiencia en tecnologías web.", 
     "picture": "/img/miguelangel.jpeg"}
     ]
-}]
+},
+{
+    "id": 3,
+    "name": "Formación Dual a través de Erasmus",
+    "date": "5 de Febrero de 2026",
+    "hour": "18:30 - 19:15",
+    "description": "Charla formativa sobre la formación dual mediante el programa Erasmus, enfocada en las oportunidades que ofrece a los estudiantes para adquirir experiencia práctica en empresas europeas mientras continúan su educación académica.",
+    "authors":[
+        {"name": "Federico Martínez", "charge": "Profesor del IES Al-Andalus", "bio": "Federico Martínez es un profesor del IES Al-Andalus encargado de la formación Erasmus."}
+    ]
+},
+{
+    "id": 4,
+    "name": "Charlas Ráidas",
+    "date": "5 de Febrero de 2026",
+    "hour": "19:15 - 19:30",
+    "description": "Charlas rápidas impartidas por los alumnos del IES Al-Andalus de la modadalida de Formación Profesional.",
+    "authors":[
+        {"name": "Alumno 1", "charge": "Alumno de DAM", "bio": "Alumno del IES Al-Andalus de la modalidad de Desarrollo de Aplicaciones Multiplataforma."},
+        {"name": "Alumno 2", "charge": "Alumno de DAW", "bio": "Alumno del IES Al-Andalus de la modalidad de Desarrollo de Aplicaciones Web."},
+        {"name": "Alumno 3", "charge": "Alumno de ASIR", "bio": "Alumno del IES Al-Andalus de la modalidad de Administración de Sistemas Informáticos en Red."}
+    ]
+},
+{
+    "id": 5,
+    "name": "Almería Tech - Infraestructura como Código",
+    "date": "5 de Febrero de 2026",
+    "hour": "19:30 - 20:15",
+    "description": "Charla sobre Infraestructura como Código impartida por Almería Tech.",
+    "authors":[
+        {"name": "Adrian", "charge": "Especialistas en Infraestructura", "bio": "El equipo de Almería Tech cuenta con amplia experiencia en la implementación de Infraestructura como Código."}
+    ]
+},
+{
+    "id": 6,
+    "name": "Carlos Santisteban (La Jaquería) - Charla",
+    "date": "5 de Febrero de 2026",
+    "hour": "20:15 - 21:00",
+    "description": "Charla impartida por Carlos Santisteban de La Jaquería sobre temas relevantes en el ámbito de la tecnología y la educación.",
+    "authors":[
+        {"name": "Carlos Santisteban", "charge": "Profesor del IES Bahía de Almería", "bio": "Carlos Santisteban es profesor del IES Bahía de Almería y miembro activo de la comunidad de La Jaquería."}
+    ]
+}
+]
