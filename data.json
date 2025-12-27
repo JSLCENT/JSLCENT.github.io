@@ -1,0 +1,23 @@
+[{
+    "id": 1,
+    "name": "Viewnext - Charla",
+    "date": "5 de Febrero de 2026",
+    "hour": "17:00-17:45",
+    "description": "Charla sobre.....",
+    "authors":[
+        {"name": "Autor 1", "charge": "Manager", "bio": "Alice has over 10 years of experience in project management." 
+    },
+        {"name": "Autor 2", "charge": "Designer", "bio": "Bob is a creative designer with a passion for user experience."}
+    ]
+},
+{
+    "id": 2,
+    "name": "Miguel Ángel López Vicente - Charla",
+    "date": "5 de Febrero de 2026",
+    "hour": "17:45-18:30",
+    "description": "Descripción de otra charla.",
+    "authors":[
+        {"name": "Miguel Ángel López Vicente", "charge": "Developer", "bio": "Miguel Ángel López Vicente es un desarrollador con amplia experiencia en tecnologías web.", 
+    "picture": "/img/miguelangel.jpeg"}
+    ]
+}]
