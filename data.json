@@ -1,66 +1,228 @@
-[{
-    "id": 1,
-    "name": "Viewnext - Charla",
-    "date": "5 de Febrero de 2026",
-    "hour": "17:00-17:45",
-    "description": "Charla sobre.....",
-    "authors":[
-        {"name": "Autor 1", "charge": "Manager", "bio": "Alice has over 10 years of experience in project management." 
+[
+    {
+        "id": 1,
+        "name": "Viewnext - IA Generativa, la vitamina del sector IT y mucho más",
+        "date": "4 de Febrero de 2026",
+        "hour": "17:00-17:45",
+        "description": "1. Que es la IA Generativa.\n2. Modelos Fundacionales.\n3. Como los entrenamos.\n4. Como funciona el RAG.\n5. Prompting.\n6. Problemas.\n7. Recomendaciones.",
+        "authors": [
+            {
+                "name": "ALEJANDRO PARDO VIDAÑA",
+                "charge": "Desarrollador IA",
+                "bio": "Me llamo Alejandro y actualmente estoy en Viewnext en la práctica de Inteligencia Artificial Generativa. Yo vengo de hacer estudios relacionados con la informatica como FP media y luego Ingeniería Informática en Almería. En mi día a día utilizo la IA como una herramienta para aumentar la productividad y el conocimiento, igual que antes se usaba Stack Overflow, pero adaptado a las tecnologías actuales. Soy una persona normal a la que le interesa cómo la IA puede ayudarnos a aprender y trabajar mejor en informática.",
+                "picture": "/img/AlejandroPardo.jpg"
+            },
+            {
+                "name": "JUAN LOPERA SANCHEZ",
+                "charge": "Desarrollador IA",
+                "bio": "Me llamo Juan y actualmente estoy en Viewnext en la práctica de Inteligencia Artificial Generativa. Desde siempre he tenido interés por la informática, lo que me llevó a estudiar el grado medio en Sistemas Microinformáticos y Redes (SMR) y posteriormente el grado superior en Desarrollo de Aplicaciones Web (DAW). En mi día a día utilizo la inteligencia artificial para hacer mi trabajo más eficiente y seguir aprendiendo, aprovechando las herramientas y tecnologías disponibles en la actualidad. También la incorporo en las soluciones que desarrollo, para que otras personas puedan beneficiarse de sus ventajas y descubrir nuevas formas de trabajar.",
+                "picture": "/img/JuanLopera.jpg"
+            }
+        ]
     },
-        {"name": "Autor 2", "charge": "Designer", "bio": "Bob is a creative designer with a passion for user experience."}
-    ]
-},
-{
-    "id": 2,
-    "name": "Miguel Ángel López Vicente - Charla",
-    "date": "5 de Febrero de 2026",
-    "hour": "17:45-18:30",
-    "description": "Descripción de otra charla.",
-    "authors":[
-        {"name": "Miguel Ángel López Vicente", "charge": "Developer", "bio": "Miguel Ángel López Vicente es un desarrollador con amplia experiencia en tecnologías web.", 
-    "picture": "/img/miguelangel.jpeg"}
-    ]
-},
-{
-    "id": 3,
-    "name": "Formación Dual a través de Erasmus",
-    "date": "5 de Febrero de 2026",
-    "hour": "18:30 - 19:15",
-    "description": "Charla formativa sobre la formación dual mediante el programa Erasmus, enfocada en las oportunidades que ofrece a los estudiantes para adquirir experiencia práctica en empresas europeas mientras continúan su educación académica.",
-    "authors":[
-        {"name": "Federico Martínez", "charge": "Profesor del IES Al-Andalus", "bio": "Federico Martínez es un profesor del IES Al-Andalus encargado de la formación Erasmus."}
-    ]
-},
-{
-    "id": 4,
-    "name": "Charlas Ráidas",
-    "date": "5 de Febrero de 2026",
-    "hour": "19:15 - 19:30",
-    "description": "Charlas rápidas impartidas por los alumnos del IES Al-Andalus de la modadalida de Formación Profesional.",
-    "authors":[
-        {"name": "Alumno 1", "charge": "Alumno de DAM", "bio": "Alumno del IES Al-Andalus de la modalidad de Desarrollo de Aplicaciones Multiplataforma."},
-        {"name": "Alumno 2", "charge": "Alumno de DAW", "bio": "Alumno del IES Al-Andalus de la modalidad de Desarrollo de Aplicaciones Web."},
-        {"name": "Alumno 3", "charge": "Alumno de ASIR", "bio": "Alumno del IES Al-Andalus de la modalidad de Administración de Sistemas Informáticos en Red."}
-    ]
-},
-{
-    "id": 5,
-    "name": "Almería Tech - Infraestructura como Código",
-    "date": "5 de Febrero de 2026",
-    "hour": "19:30 - 20:15",
-    "description": "Charla sobre Infraestructura como Código impartida por Almería Tech.",
-    "authors":[
-        {"name": "Adrian", "charge": "Especialistas en Infraestructura", "bio": "El equipo de Almería Tech cuenta con amplia experiencia en la implementación de Infraestructura como Código."}
-    ]
-},
-{
-    "id": 6,
-    "name": "Carlos Santisteban (La Jaquería) - Charla",
-    "date": "5 de Febrero de 2026",
-    "hour": "20:15 - 21:00",
-    "description": "Charla impartida por Carlos Santisteban de La Jaquería sobre temas relevantes en el ámbito de la tecnología y la educación.",
-    "authors":[
-        {"name": "Carlos Santisteban", "charge": "Profesor del IES Bahía de Almería", "bio": "Carlos Santisteban es profesor del IES Bahía de Almería y miembro activo de la comunidad de La Jaquería."}
-    ]
-}
+    {
+        "id": 2,
+        "name": "Miguel Ángel López Vicente - Charla",
+        "date": "4 de Febrero de 2026",
+        "hour": "17:45-18:30",
+        "description": "Descripción de otra charla.",
+        "authors": [
+            {
+                "name": "Miguel Ángel López Vicente",
+                "charge": "Developer",
+                "bio": "Miguel Ángel López Vicente es un desarrollador con amplia experiencia en tecnologías web.",
+                "picture": "/img/miguelangel.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Formación Dual a través de Erasmus",
+        "date": "4 de Febrero de 2026",
+        "hour": "18:30 - 19:15",
+        "description": "Charla formativa sobre la formación dual mediante el programa Erasmus, enfocada en las oportunidades que ofrece a los estudiantes para adquirir experiencia práctica en empresas europeas mientras continúan su educación académica.",
+        "authors": [
+            {
+                "name": "Federico Martínez",
+                "charge": "Profesor del IES Al-Andalus",
+                "bio": "Federico Martínez es un profesor del IES Al-Andalus encargado de la formación Erasmus."
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Charlas Ráidas",
+        "date": "4 de Febrero de 2026",
+        "hour": "19:15 - 19:30",
+        "description": "Charlas rápidas impartidas por los alumnos del IES Al-Andalus de la modadalida de Formación Profesional.",
+        "authors": [
+            {
+                "name": "Alumno 1",
+                "charge": "Alumno de DAM",
+                "bio": "Alumno del IES Al-Andalus de la modalidad de Desarrollo de Aplicaciones Multiplataforma."
+            },
+            {
+                "name": "Alumno 2",
+                "charge": "Alumno de DAW",
+                "bio": "Alumno del IES Al-Andalus de la modalidad de Desarrollo de Aplicaciones Web."
+            },
+            {
+                "name": "Alumno 3",
+                "charge": "Alumno de ASIR",
+                "bio": "Alumno del IES Al-Andalus de la modalidad de Administración de Sistemas Informáticos en Red."
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Adrián Alonso (Almería Tech) - Code your Cloud: el futuro de la Infraestructura como Código impulsada por IA",
+        "date": "4 de Febrero de 2026",
+        "hour": "19:30 - 20:15",
+        "description": "La forma en la que gestionamos infraestructura ha evolucionado radicalmente en los últimos años. En esta charla haremos un recorrido por esa evolución: desde el clickops y la gestión manual, pasando por la automatización clásica y la Infraestructura como Código (IaC), hasta llegar a los enfoques actuales apoyados en Inteligencia Artificial. Veremos cómo la IA está cambiando la forma de definir, validar, desplegar y operar infraestructuras en la nube, y qué oportunidades (y retos) abre para los equipos técnicos de hoy y del futuro.",
+        "authors": [
+            {
+                "name": "Adrián Alonso",
+                "charge": "Software Engineer en Plain Concepts/Cofounder de AlmeríaTech",
+                "bio": "Ingeniero de software con experiencia en distintos ámbitos del desarrollo y la arquitectura cloud. Aprendiz constante y divulgador por vocación, combina su trabajo profesional con la creación de comunidad tecnológica a través de AlmeríaTech. Le apasiona explorar nuevas formas de construir software y compartir conocimiento de manera práctica y accesible.",
+                "picture": "/img/adrian.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Carlos Santisteban (La Jaquería) - Cómo montárselo en épocas de carestía de recursos",
+        "date": "4 de Febrero de 2026",
+        "hour": "20:15 - 21:00",
+        "description": "Charla impartida por Carlos Santisteban de La Jaquería sobre temas relevantes en el ámbito de la tecnología y la educación.",
+        "authors": [
+            {
+                "name": "Carlos Santisteban",
+                "charge": "Profesor del IES Bahía de Almería",
+                "bio": "Profesor de Informática, 55 años, usuario de ordenadores (ZX Spectrum) desde 1983. Aficionado al retro-computing y artífice de la plataforma Durango. ",
+                "picture": "/img/carlos.png"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Jose Antonio Álvarez Bermejo - Inteligencia, defensa y supercomputación",
+        "date": "5 de Febrero de 2026",
+        "hour": "9:30 - 10:15",
+        "description": "El perfil de analista de información es crucial en la época en la que vivimos. Si además, nos centramos en el campo de la ciberdefensa, toma aún má relevancia. En esta charla vamos a tratar el tema del perfil de analista de inteligencia y del impacto que tiene no tener bajo control a las potenciales amenazas, desde el entorno personal, empresarial, hasta el nivel de entorno nacional.",
+        "authors": [
+            {
+                "name": "Jose Antonio Álvarez Bermejo",
+                "charge": "Profesor de la Universidad de Almería",
+                "bio": "Profesor de la universidad de Almería con amplia experiencia en ciberdefensa."
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Jesús Marín - Construyendo una estrategia de seguridad y cumplimiento en AWS",
+        "date": "5 de Febrero de 2026",
+        "hour": "10:15 - 11:00",
+        "description": " La importancia de las plataformas de nube pública es bien conocida, pero existe un importante desconocimiento sobre los riesgos de seguridad que puede suponer y los métodos para abordarlos. En esta charla se introducirán las principales iniciativas en cuestión de seguridad y cumplimiento normativo en Amazon Web Services, y se expondrán las principales herramientas y buenas prácticas para crear una estrategia de seguridad sólida al mismo tiempo que ágil. Todo desde un enfoque conceptual, pudiendo ser trasladado a otras plataformas de nube pública.",
+        "authors": [
+            {
+                "name": "Jesús Marín",
+                "charge": " AWS Solutions Specialist @ Ingram Micro",
+                "bio": "La importancia de las plataformas de nube pública es bien conocida, pero existe un importante desconocimiento sobre los riesgos de seguridad que puede suponer y los métodos para abordarlos. En esta charla se introducirán las principales iniciativas en cuestión de seguridad y cumplimiento normativo en Amazon Web Services, y se expondrán las principales herramientas y buenas prácticas para crear una estrategia de seguridad sólida al mismo tiempo que ágil. Todo desde un enfoque conceptual, pudiendo ser trasladado a otras plataformas de nube pública.",
+                "picture": "/img/jesus.jpg"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "IOBuilders - Construyendo el futuro: DLT, IA y el camino real de un desarrollador junior",
+        "date": "5 de Febrero de 2026",
+        "hour": "11:30 - 12:15",
+        "description": "Una charla desde la experiencia de un CTO sobre cómo las tecnologías DLT están transformando sectores clave y qué oportunidades reales existen para los desarrolladores junior. Hablaremos de cómo orientar una carrera profesional en tecnología, del papel de la inteligencia artificial como aliada del programador y de por qué los perfiles junior tienen hoy más oportunidades que nunca en empresas como ioBuilders.",
+        "authors": [
+            {
+                "name": "Ivan",
+                "charge": "CTO en IOBuilders",
+                "bio": "CTO con más de 9 años de experiencia en el sector blockchain, especializado en el diseño y desarrollo de soluciones empresariales y aplicaciones descentralizadas. Apasionado del emprendimiento, el desarrollo de software y el diseño de arquitecturas tecnológicas, cuenta con una amplia experiencia en la tokenización de activos digitales. A lo largo de su trayectoria ha trabajado con diferentes tipos de activos, incluyendo NFTs, monedas digitales, bonos, acciones, fondos y activos inmobiliarios.",
+                "picture": "/img/Ivan.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Enrique Fernández - Charla",
+        "date": "5 de Febrero de 2026",
+        "hour": "12:15 - 13:00",
+        "description": "Charla impartida por Enrique Fernández sobre temas relevantes en el ámbito de la tecnología y la educación.",
+        "authors": [
+            {
+                "name": "Enrique Fernández",
+                "charge": "Profesor del IES Al-Andalus",
+                "bio": "Enrique Fernández es profesor del IES Al-Andalus con amplia experiencia en formación tecnológica."
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "AirBnb - Charla Online",
+        "date": "5 de Febrero de 2026",
+        "hour": "16:30 - 17:15",
+        "description": "Charla sobre temas relevantes en el ámbito de la tecnología impartida por profesionales de AirBnb.",
+        "authors": [
+            {
+                "name": "Carlos (AirBnb)",
+                "charge": "Desarrollador en AirBnb",
+                "bio": "Desarrollador en AirBnb"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Miguel Ángel Rosa Caparros - Taller",
+        "date": "5 de Febrero de 2026",
+        "hour": "17:15 - 18:15",
+        "description": "Taller impartido por Miguel Ángel Rosa Caparros sobre temas relevantes en el ámbito de la tecnología.",
+        "authors": [
+            {
+                "name": "Miguel Ángel Rosa Caparros",
+                "charge": "Desarrollador",
+                "bio": "Desarrollador con amplia experiencia en tecnologías web."
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "ViewNext - Programando con IA generativaller",
+        "date": "5 de Febrero de 2026",
+        "hour": "18:15 - 19:15",
+        "description": "Contenido:<ol><li>1.       Planteamos una idea.</li><li>2.       Generación de prompts</li><li>3.       Generación y ejecución de código</li></ol>",
+        "authors": [
+            {
+                "name": "ALEJANDRO PARDO VIDAÑA",
+                "charge": "Desarrollador IA",
+                "bio": "Me llamo Alejandro y actualmente estoy en Viewnext en la práctica de Inteligencia Artificial Generativa. Yo vengo de hacer estudios relacionados con la informatica como FP media y luego Ingeniería Informática en Almería. En mi día a día utilizo la IA como una herramienta para aumentar la productividad y el conocimiento, igual que antes se usaba Stack Overflow, pero adaptado a las tecnologías actuales. Soy una persona normal a la que le interesa cómo la IA puede ayudarnos a aprender y trabajar mejor en informática.",
+                "picture": "/img/AlejandroPardo.jpg"
+            },
+            {
+                "name": "JUAN LOPERA SANCHEZ",
+                "charge": "Desarrollador IA",
+                "bio": "Me llamo Juan y actualmente estoy en Viewnext en la práctica de Inteligencia Artificial Generativa. Desde siempre he tenido interés por la informática, lo que me llevó a estudiar el grado medio en Sistemas Microinformáticos y Redes (SMR) y posteriormente el grado superior en Desarrollo de Aplicaciones Web (DAW). En mi día a día utilizo la inteligencia artificial para hacer mi trabajo más eficiente y seguir aprendiendo, aprovechando las herramientas y tecnologías disponibles en la actualidad. También la incorporo en las soluciones que desarrollo, para que otras personas puedan beneficiarse de sus ventajas y descubrir nuevas formas de trabajar.",
+                "picture": "/img/JuanLopera.jpg"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Patricio García Avendaño - Entendiendo el ransomware a través de la ingeniería inversa",
+        "date": "5 de Febrero de 2026",
+        "hour": "19:30 - 20:30",
+        "description": "En este taller realizaremos un proceso de ingeniería inversa a un ransomware, el cual ha sido utilizado para encriptar nuestros datos. Haciendo uso de herramientas de ingeniería inversa nos pondremos en el papel de un analista de malware para intentar descubrir como nos han encriptado todos los archivos, y realizando un análisis estático vamos a intentar descubrir si el ciberdelincuente ha cometido algún error que nos permita recuperar nuestros archivos sin tener que pagar. Es un taller de iniciación al análisis de malware, por lo cual no se requiere experiencia previa, sólo ganas y motivación para aprender.",
+        "authors": [
+            {
+                "name": "Patricio García Avendaño",
+                "charge": "Becario de investigación en la UAL.",
+                "bio": "Becario de investigación en la Universidad de Almería en el departamento de matemática computacional y ciberseguridad, bajo la supervisión de José Antonio Álvarez Bermejo. Apasionado de la ciberseguridad y el análisis de malware.",
+                "picture": "/img/patricio.jpeg"
+            }
+        ]
+    }
 ]
