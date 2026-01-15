@@ -5,7 +5,7 @@ function getQueryParam(paramName) {
 
 function renderTalkDetails(data) {
     document.getElementById('title').textContent = data.name;
-    document.getElementById('description').textContent = data.description;
+    document.getElementById('description').innerHTML = data.description;
     document.getElementById('date').textContent = data.date;
     document.getElementById('hour').textContent = data.hour;
     document.getElementsByTagName('title')[0].textContent = data.name + ' - SLCENT XXII';
