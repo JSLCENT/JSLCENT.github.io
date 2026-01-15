@@ -127,7 +127,7 @@
             {
                 "name": "Jesús Marín",
                 "charge": " AWS Solutions Specialist @ Ingram Micro",
-                "bio": "La importancia de las plataformas de nube pública es bien conocida, pero existe un importante desconocimiento sobre los riesgos de seguridad que puede suponer y los métodos para abordarlos. En esta charla se introducirán las principales iniciativas en cuestión de seguridad y cumplimiento normativo en Amazon Web Services, y se expondrán las principales herramientas y buenas prácticas para crear una estrategia de seguridad sólida al mismo tiempo que ágil. Todo desde un enfoque conceptual, pudiendo ser trasladado a otras plataformas de nube pública.",
+                "bio": " Estudió en la Universidad de Almería, y tras varios años enfocado en ciberseguridad hoy día se dedica a la construcción de soluciones en nube pública.",
                 "picture": "/img/jesus.jpg"
             }
         ]
@@ -140,7 +140,7 @@
         "description": "Una charla desde la experiencia de un CTO sobre cómo las tecnologías DLT están transformando sectores clave y qué oportunidades reales existen para los desarrolladores junior. Hablaremos de cómo orientar una carrera profesional en tecnología, del papel de la inteligencia artificial como aliada del programador y de por qué los perfiles junior tienen hoy más oportunidades que nunca en empresas como ioBuilders.",
         "authors": [
             {
-                "name": "Ivan",
+                "name": "Ivan Saiz",
                 "charge": "CTO en IOBuilders",
                 "bio": "CTO con más de 9 años de experiencia en el sector blockchain, especializado en el diseño y desarrollo de soluciones empresariales y aplicaciones descentralizadas. Apasionado del emprendimiento, el desarrollo de software y el diseño de arquitecturas tecnológicas, cuenta con una amplia experiencia en la tokenización de activos digitales. A lo largo de su trayectoria ha trabajado con diferentes tipos de activos, incluyendo NFTs, monedas digitales, bonos, acciones, fondos y activos inmobiliarios.",
                 "picture": "/img/Ivan.jpeg"
