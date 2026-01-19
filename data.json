@@ -22,15 +22,15 @@
     },
     {
         "id": 2,
-        "name": "Miguel Ángel López Vicente - Charla",
+        "name": "Miguel Ángel López Vicente - Slidev: No hagas diapositivas, prográmalas",
         "date": "4 de Febrero de 2026",
         "hour": "17:45-18:30",
-        "description": "Descripción de otra charla.",
+        "description": "Slidev es una herramienta que nos permitirá crear diapositivas para nuestras programaciones mediante programación  haciendo uso de Markdown y HTML.",
         "authors": [
             {
                 "name": "Miguel Ángel López Vicente",
-                "charge": "Developer",
-                "bio": "Miguel Ángel López Vicente es un desarrollador con amplia experiencia en tecnologías web.",
+                "charge": "Programador Backend para Inditex",
+                "bio": "Programador backend aficionado al cacharreo, videojuegos, domótica y cosas frikis en general.",
                 "picture": "/img/miguelangel.jpeg"
             }
         ]
