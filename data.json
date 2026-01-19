@@ -177,15 +177,16 @@
     },
     {
         "id": 12,
-        "name": "Miguel Ángel Rosa Caparros - Taller",
+        "name": "Miguel Ángel Rosa Caparros - Introducción práctica a Linux y Ciberseguridad con OverTheWire – Bandit",
         "date": "5 de Febrero de 2026",
         "hour": "17:15 - 18:15",
-        "description": "Taller impartido por Miguel Ángel Rosa Caparros sobre temas relevantes en el ámbito de la tecnología.",
-        "authors": [
-            {
+        "description": "<p>En este taller se introducirá a los asistentes en el uso de Linux y los fundamentos de la ciberseguridad mediante Bandit, uno de los wargames educativos más conocidos de la plataforma OverTheWire.</p> <p>A lo largo de la sesión se trabajará en un entorno real accesible por SSH, donde los participantes deberán resolver una serie de retos progresivos utilizando comandos básicos de Linux.</p> <p>El objetivo del taller no es “hackear”, sino aprender a pensar técnicamente, interpretar problemas reales y adquirir soltura en el uso de Linux. El taller está orientado a estudiantes y personas con conocimientos básicos de informática, sin necesidad de experiencia previa en seguridad.</p>",
+            
+        "authors": [{
                 "name": "Miguel Ángel Rosa Caparros",
-                "charge": "Desarrollador",
-                "bio": "Desarrollador con amplia experiencia en tecnologías web."
+                "charge": "Administrador de Sistemas",
+                "bio": "Miguel Ángel Rosa Caparrós es Administrador de Sistemas Informáticos, con formación especializada en Linux, redes, servicios de red y ciberseguridad. Cuenta con experiencia práctica en la implantación, configuración y securización de infraestructuras, así como en entornos de virtualización y contenedores Docker.",
+                "picture": "/img/miguelangelrosa.jpeg"
             }
         ]
     },
