@@ -239,5 +239,19 @@
                 "bio": "Empleado de Hiberus Tecnología"
             }
         ]
+    },
+    {
+        "id": 16,
+        "name": "Javier Palmero Clares - Manual de supervivencia para el desarrollador Junior en el infierno, también llamado mercado laboral",
+        "date": "5 de Febrero de 2026",
+        "hour": "13:00 - 13:45",
+        "description": " Una charla sobre la realidad laboral actual, más allá de los libros. Hablaremos de habilidades vitales que no siempre están en el temario: comunicación efectiva con compañeros y, lo más importante, qué hacer (y qué no hacer) durante las prácticas para conseguir el contrato. En lo técnico, veremos a qué se enfrenta un Junior hoy en día: desde la creación de algoritmos en Python hasta el gran reto de lidiar con \"código legado\" en entornos reales de producción.",
+        "authors": [
+            {
+                "name": "Javier Palmero Clares",
+                "charge": "Apps Developer en GRS GranSolar Group",
+                "bio": "Antiguo alumno (aunque no mucho) del IES Al-Ándalus, promoción 2025. Me incorporé al equipo de GranSolar inmediatamente después de terminar las prácticas. Actualmente trabajo combinando el desarrollo de nuevos algoritmos, aplicaciones de escritorio e integración de bases de datos en el sector de las renovables. Ajedrecista en mis ratos libres."
+            }
+        ]
     }
 ]
