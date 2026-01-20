@@ -163,14 +163,14 @@
     },
     {
         "id": 11,
-        "name": "AirBnb - Charla Online",
+        "name": "Carlos Barbero-Cortés - Introducción a la globalización e internacionalización",
         "date": "5 de Febrero de 2026",
         "hour": "16:30 - 17:15",
         "description": "Charla sobre temas relevantes en el ámbito de la tecnología impartida por profesionales de AirBnb.",
         "authors": [
             {
-                "name": "Carlos (AirBnb)",
-                "charge": "Desarrollador en AirBnb",
+                "name": "Carlos Barbero-Cortés",
+                "charge": "Localization Program Manager en Airbnb - GILT Ninja",
                 "bio": "Desarrollador en AirBnb"
             }
         ]
@@ -223,6 +223,20 @@
                 "charge": "Becario de investigación en la UAL.",
                 "bio": "Becario de investigación en la Universidad de Almería en el departamento de matemática computacional y ciberseguridad, bajo la supervisión de José Antonio Álvarez Bermejo. Apasionado de la ciberseguridad y el análisis de malware.",
                 "picture": "/img/patricio.jpeg"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Hiberus Tecnología - Charla",
+        "date": "5 de Febrero de 2026",
+        "hour": "20:30 - 21:30",
+        "description": "Charla sobre tecnología de Hiberus Tecnología.",
+        "authors": [
+            {
+                "name": "Ponente de Hiberus",
+                "charge": "Empleado de Hiberus Tecnología",
+                "bio": "Empleado de Hiberus Tecnología"
             }
         ]
     }
