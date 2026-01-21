@@ -59,17 +59,17 @@
             {
                 "name": "Alumno 1",
                 "charge": "Alumno de DAM",
-                "bio": "Alumno del IES Al-Andalus de la modalidad de Desarrollo de Aplicaciones Multiplataforma."
+                "bio": "Alumno del IES Al-Andalus de la modalidad semipresencial de Desarrollo de Aplicaciones Multiplataforma."
             },
             {
                 "name": "Alumno 2",
                 "charge": "Alumno de DAW",
-                "bio": "Alumno del IES Al-Andalus de la modalidad de Desarrollo de Aplicaciones Web."
+                "bio": "Alumno del IES Al-Andalus de la modalidad semipresencial de Desarrollo de Aplicaciones Web."
             },
             {
                 "name": "Alumno 3",
                 "charge": "Alumno de ASIR",
-                "bio": "Alumno del IES Al-Andalus de la modalidad de Administración de Sistemas Informáticos en Red."
+                "bio": "Alumno del IES Al-Andalus de la modalidad semipresencial de Administración de Sistemas Informáticos en Red."
             }
         ]
     },
