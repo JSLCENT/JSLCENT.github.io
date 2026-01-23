@@ -228,15 +228,30 @@
     },
     {
         "id": 15,
-        "name": "Hiberus Tecnología - Charla",
+        "name": "Hiberus - De la Vida al Modelo",
         "date": "5 de Febrero de 2026",
         "hour": "20:30 - 21:30",
-        "description": "Charla sobre tecnología de Hiberus Tecnología.",
+        "description": "os 10 primeros minutos hablaremos sobre hiberus para que los alumnos/as puedan conocer la empresa y a qué nos dedicamos. A continuación, Francisco y Mari Carmen compartirán su experiencia desde el módulo hasta hoy y, por último, la descripción del taller: En este taller haremos una introducción rápida y práctica a los Agentes de Inteligencia Artificial en terminal (CLI) y a la metodología Spec-Driven Development (SDD), viendo cómo estas herramientas pueden ayudarnos a automatizar tareas, generar, mejorar código y trabajar de forma más ordenada a partir de una especificación clara. A través de un ejemplo sencillo, aprenderemos a definir una spec mínima y utilizar la IA como apoyo para acelerar el desarrollo sin perder control ni calidad.",
         "authors": [
             {
-                "name": "Ponente de Hiberus",
+                "name": "Pilar Menéndez Fernández",
+                "charge": "Empleada de Hiberus Tecnología",
+                "bio": "Profesional responsable de la selección de talento en la delegación de Hiberus Almería, especializada en perfiles tecnológicos. Enfocada en identificar el mejor encaje entre personas y proyectos para impulsar el crecimiento del equipo."
+            },
+            {
+                "name": "Francisco Navarro De Juan",
                 "charge": "Empleado de Hiberus Tecnología",
-                "bio": "Empleado de Hiberus Tecnología"
+                "bio": "Apasionado desde pequeño al mundo de la tecnología y la informática, actualmente soy desarrollador full-stack en hiberus, hago un uso diario de herramientas con IA para aplicarlas para el día a día para optimizar procesos diarios."
+            },
+            {
+                "name": "María del Carmen Fernández Sánchez",
+                "charge": "Empleada de Hiberus Tecnología",
+                "bio": "Desarrolladora full-stack en Xalok, con especialización en backend, dedicada a la creación de soluciones para medios digitales como periódicos y medios de comunicación, donde la inteligencia artificial es una parte importante del día a día."
+            },
+            {
+                "name": "Alejandro Roca López",
+                "charge": "Empleado de Hiberus Tecnología",
+                "bio": "Profesional del ámbito de la informática y la tecnología, con interés en el uso práctico de la Inteligencia Artificial aplicada a tareas reales del día a día. En mis ratos libres me gusta cacharrear y enfrentarme a retos interesantes."
             }
         ]
     },
