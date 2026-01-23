@@ -231,7 +231,7 @@
         "name": "Hiberus - De la Vida al Modelo",
         "date": "5 de Febrero de 2026",
         "hour": "20:30 - 21:30",
-        "description": "os 10 primeros minutos hablaremos sobre hiberus para que los alumnos/as puedan conocer la empresa y a qué nos dedicamos. A continuación, Francisco y Mari Carmen compartirán su experiencia desde el módulo hasta hoy y, por último, la descripción del taller: En este taller haremos una introducción rápida y práctica a los Agentes de Inteligencia Artificial en terminal (CLI) y a la metodología Spec-Driven Development (SDD), viendo cómo estas herramientas pueden ayudarnos a automatizar tareas, generar, mejorar código y trabajar de forma más ordenada a partir de una especificación clara. A través de un ejemplo sencillo, aprenderemos a definir una spec mínima y utilizar la IA como apoyo para acelerar el desarrollo sin perder control ni calidad.",
+        "description": "Los 10 primeros minutos hablaremos sobre hiberus para que los alumnos/as puedan conocer la empresa y a qué nos dedicamos. A continuación, Francisco y Mari Carmen compartirán su experiencia desde el módulo hasta hoy y, por último, la descripción del taller: En este taller haremos una introducción rápida y práctica a los Agentes de Inteligencia Artificial en terminal (CLI) y a la metodología Spec-Driven Development (SDD), viendo cómo estas herramientas pueden ayudarnos a automatizar tareas, generar, mejorar código y trabajar de forma más ordenada a partir de una especificación clara. A través de un ejemplo sencillo, aprenderemos a definir una spec mínima y utilizar la IA como apoyo para acelerar el desarrollo sin perder control ni calidad.",
         "authors": [
             {
                 "name": "Pilar Menéndez Fernández",
