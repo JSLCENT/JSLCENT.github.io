@@ -149,15 +149,15 @@
     },
     {
         "id": 9,
-        "name": "Enrique Fernández - Charla",
+        "name": "Enrique Fernández - La empresa como herramienta de vida",
         "date": "5 de Febrero de 2026",
-        "hour": "12:15 - 13:00",
-        "description": "Charla impartida por Enrique Fernández sobre temas relevantes en el ámbito de la tecnología y la educación.",
+        "hour": "13:00 - 13:45",
+        "description": "Un viaje por la filosofía empresarial.",
         "authors": [
             {
                 "name": "Enrique Fernández",
-                "charge": "Profesor del IES Al-Andalus",
-                "bio": "Enrique Fernández es profesor del IES Al-Andalus con amplia experiencia en formación tecnológica."
+                "charge": "Un Autónomo en España",
+                "bio": "<p>Alguien con una curiosidad infinita que tiene la ilusión de dejar el mundo un poco mejor de lo encontrado.</p> <p>Scout, Arbitro de balonmano, Director de Tiempo Libre,  Manitas y Programador (habiendo terminado DAW y DAM en el instituto). Actualmente emprendedor</p>" 
             }
         ]
     },
@@ -166,12 +166,13 @@
         "name": "Carlos Barbero-Cortés - Introducción a la globalización e internacionalización",
         "date": "5 de Febrero de 2026",
         "hour": "16:30 - 17:15",
-        "description": "Charla sobre temas relevantes en el ámbito de la tecnología impartida por profesionales de AirBnb.",
+        "description": ": Breve introduccion a la internacionalizacion y globalización de aplicaciones informáticas. Cómo estar listo para dar el gran salto.",
         "authors": [
             {
                 "name": "Carlos Barbero-Cortés",
                 "charge": "Localization Program Manager en Airbnb - GILT Ninja",
-                "bio": "Desarrollador en AirBnb"
+                "bio": "Profesor de FP durante 6 años y ha trabajado en diferentes empresas como Apple, eBay y Airbnb.",
+                "picture": "/img/carlosbarbero.png"
             }
         ]
     },
