@@ -198,6 +198,12 @@
                 "bio": "Profesor de FP durante 6 años y ha trabajado en diferentes empresas como Apple, eBay y Airbnb.",
                 "picture": "/img/carlosbarbero.png"
             }
+        ],
+        "resources": [
+            {
+                "name": "Presentación de la charla",
+                "url": "https://docs.google.com/presentation/d/1ZVMMFsGATlENtNNyrRggDbVthA3b5FPJ-vYS3p5b4KE/edit"
+            }
         ]
     },
     {
