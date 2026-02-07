@@ -18,6 +18,12 @@
                 "bio": "Me llamo Juan y actualmente estoy en Viewnext en la práctica de Inteligencia Artificial Generativa. Desde siempre he tenido interés por la informática, lo que me llevó a estudiar el grado medio en Sistemas Microinformáticos y Redes (SMR) y posteriormente el grado superior en Desarrollo de Aplicaciones Web (DAW). En mi día a día utilizo la inteligencia artificial para hacer mi trabajo más eficiente y seguir aprendiendo, aprovechando las herramientas y tecnologías disponibles en la actualidad. También la incorporo en las soluciones que desarrollo, para que otras personas puedan beneficiarse de sus ventajas y descubrir nuevas formas de trabajar.",
                 "picture": "/img/JuanLopera.jpg"
             }
+        ],
+        "resources": [
+            {
+                "name": "Presentación de la charla",
+                "url": "/resources/IAGen.pptx"
+            }
         ]
     },
     {
@@ -46,6 +52,12 @@
                 "name": "Federico Martínez",
                 "charge": "Profesor del IES Al-Andalus",
                 "bio": "Federico Martínez es un profesor del IES Al-Andalus encargado de la formación Erasmus."
+            }
+        ],
+        "resources": [
+            {
+                "name": "Presentación de la charla",
+                "url": "https://sway.cloud.microsoft/vlqdHl7w5F4EBnzR?ref=Link"
             }
         ]
     },
@@ -86,6 +98,12 @@
                 "bio": "Ingeniero de software con experiencia en distintos ámbitos del desarrollo y la arquitectura cloud. Aprendiz constante y divulgador por vocación, combina su trabajo profesional con la creación de comunidad tecnológica a través de AlmeríaTech. Le apasiona explorar nuevas formas de construir software y compartir conocimiento de manera práctica y accesible.",
                 "picture": "/img/adrian.jpeg"
             }
+        ],
+        "resources": [
+            {
+                "name": "Presentación de la charla",
+                "url": "https://www.canva.com/design/DAG_hmYMt5E/TQPtUEO8uJf49My9h0s8Mg/edit"
+            }
         ]
     },
     {
@@ -100,6 +118,12 @@
                 "charge": "Profesor del IES Bahía de Almería",
                 "bio": "Profesor de Informática, 55 años, usuario de ordenadores (ZX Spectrum) desde 1983. Aficionado al retro-computing y artífice de la plataforma Durango. ",
                 "picture": "/img/carlos.png"
+            }
+        ],
+        "resources": [
+            {
+                "name": "Presentación de la charla",
+                "url": "https://docs.google.com/presentation/d/1_YrQ3CGiQlAUdC8ylcUZTxodBqCaDDwyl7ZiX500mes/edit"
             }
         ]
     },
@@ -157,7 +181,7 @@
             {
                 "name": "Enrique Fernández",
                 "charge": "Un Autónomo en España",
-                "bio": "<p>Alguien con una curiosidad infinita que tiene la ilusión de dejar el mundo un poco mejor de lo encontrado.</p> <p>Scout, Arbitro de balonmano, Director de Tiempo Libre,  Manitas y Programador (habiendo terminado DAW y DAM en el instituto). Actualmente emprendedor</p>" 
+                "bio": "<p>Alguien con una curiosidad infinita que tiene la ilusión de dejar el mundo un poco mejor de lo encontrado.</p> <p>Scout, Arbitro de balonmano, Director de Tiempo Libre,  Manitas y Programador (habiendo terminado DAW y DAM en el instituto). Actualmente emprendedor</p>"
             }
         ]
     },
@@ -182,12 +206,22 @@
         "date": "5 de Febrero de 2026",
         "hour": "17:15 - 18:15",
         "description": "<p>En este taller se introducirá a los asistentes en el uso de Linux y los fundamentos de la ciberseguridad mediante Bandit, uno de los wargames educativos más conocidos de la plataforma OverTheWire.</p> <p>A lo largo de la sesión se trabajará en un entorno real accesible por SSH, donde los participantes deberán resolver una serie de retos progresivos utilizando comandos básicos de Linux.</p> <p>El objetivo del taller no es “hackear”, sino aprender a pensar técnicamente, interpretar problemas reales y adquirir soltura en el uso de Linux. El taller está orientado a estudiantes y personas con conocimientos básicos de informática, sin necesidad de experiencia previa en seguridad.</p>",
-            
-        "authors": [{
+        "authors": [
+            {
                 "name": "Miguel Ángel Rosa Caparros",
                 "charge": "Administrador de Sistemas",
                 "bio": "Miguel Ángel Rosa Caparrós es Administrador de Sistemas Informáticos, con formación especializada en Linux, redes, servicios de red y ciberseguridad. Cuenta con experiencia práctica en la implantación, configuración y securización de infraestructuras, así como en entornos de virtualización y contenedores Docker.",
                 "picture": "/img/miguelangelrosa.jpeg"
+            }
+        ],
+        "resources": [
+            {
+                "name": "OverTheWire - Bandit",
+                "url": "https://overthewire.org/wargames/bandit/"
+            },
+            {
+                "name": "Presentación del taller",
+                "url": "/resources/Taller_Bandit.pptx"
             }
         ]
     },
