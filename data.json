@@ -1,7 +1,35 @@
 [
     {
+        "id": 1,
+        "name": "Aplicaciones de las Gemini Gems para alumnos",
+        "date": "18 de noviembre de 2026",
+        "hour": "9:15 - 10:15",
+        "description": "",
+        "authors": [
+            {
+                "name": "Germán Morales",
+                "charge": "",
+                "bio": "Germán Morales..."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Uso de la IA en Rijk Zwaan",
+        "date": "18 de noviembre de 2026",
+        "hour": "10:15 - 11:15",
+        "description": "",
+        "authors": [
+            {
+                "name": "",
+                "charge": "",
+                "bio": ""
+            }
+        ]
+    },
+    {
         "id": 3,
-        "name": "Cómo hacer negocios con IA",
+        "name": "Cómo hacer negocios con IA (videoconferencia)",
         "date": "18 de noviembre de 2026",
         "hour": "11:45 - 12:45",
         "description": "",
@@ -45,6 +73,35 @@
         ]
     },
     {
+        "id": 6,
+        "name": "Introducción a la globalización e internacionalización (videoconferencia)",
+        "date": "18 de noviembre de 2026",
+        "hour": "17:45 - 18:30",
+        "description": "Breve introduccion a la internacionalizacion y globalización de aplicaciones informáticas. Cómo estar listo para dar el gran salto.",
+        "authors": [
+            {
+                "name": "Carlos Barbero Cortés",
+                "charge": "Localization Program Manager en Airbnb - GILT Ninja",
+                "bio": "Profesor de FP durante 6 años y ha trabajado en diferentes empresas como Apple, eBay y Airbnb.",
+                "picture": "/img/barbero.png"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Uso de Microcontroladores ESP32 con sensores",
+        "date": "18 de noviembre de 2026",
+        "hour": "19:00 - 19:45",
+        "description": "Charla acerca del uso de Microcontroladores ESP32 con sensores y su conexión con Angular.",
+        "authors": [
+            {
+                "name": "Raúl Río",
+                "charge": "",
+                "bio": "Antiguo alumno del IES Al-Andalus y trabajador de IkosTech."
+            }
+        ]
+    },
+    {
         "id": 8,
         "name": "Charlas rápidas con los ponentes",
         "date": "18 de noviembre de 2026",
@@ -71,7 +128,7 @@
     {
         "id": 12,
         "name": "",
-        "date": "19 de nebrero de 2026",
+        "date": "19 de noviembre de 2026",
         "hour": "12:45 - 13:45",
         "description": "",
         "authors": [
