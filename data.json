@@ -126,6 +126,36 @@
         ]
     },
     {
+        "id": 9,
+        "name": "",
+        "date": "19 de noviembre de 2026",
+        "hour": "9:15 - 10:15",
+        "description": "Gestionar con IA.",
+        "authors": [
+            {
+                "name": "Malena Úbeda Vilaplana",
+                "charge": "CEO y fundadora de GestionarconIA.",
+                "bio": "",
+                "picture": "/img/malena.png"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Ciberseguridad con IA",
+        "date": "19 de noviembre de 2026",
+        "hour": "11:45 - 12:45",
+        "description": "Charla acerca del uso de IA en ciberseguridad.",
+        "authors": [
+            {
+                "name": "Cayetano de Juan Ubeda",
+                "charge": "Auditor y formador en ciberseguridad",
+                "bio": "Auditor Senior. Más de 20 años de experiencia como desarrollador, en sectores de gestión y utilidades de ciberseguridad. Formador de formadores, He impartido clases en el Servicio Andaluz De Salud (SAS), Fundación Andaluza Fondo de Formación y Empleo (FAFFE), Fundación ONCE.",
+                "picture": "/img/cayetano.png"
+            }
+        ]
+    },
+    {
         "id": 12,
         "name": "",
         "date": "19 de noviembre de 2026",
@@ -135,7 +165,36 @@
             {
                 "name": "Javier Palmero Clares",
                 "charge": "Apps Developer en GRS GranSolar Group",
-                "bio": "Antiguo alumno (aunque no mucho) del IES Al-Ándalus, promoción 2025. Me incorporé al equipo de GranSolar inmediatamente después de terminar las prácticas. Actualmente trabajo combinando el desarrollo de nuevos algoritmos, aplicaciones de escritorio e integración de bases de datos en el sector de las renovables. Ajedrecista en mis ratos libres."
+                "bio": "Antiguo alumno del IES Al-Ándalus, promoción 2025. Me incorporé al equipo de GranSolar inmediatamente después de terminar las prácticas. Actualmente trabajo combinando el desarrollo de nuevos algoritmos, aplicaciones de escritorio e integración de bases de datos en el sector de las renovables. Ajedrecista en mis ratos libres."
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Enseñar a una IA a razonar sobre ciberataques.",
+        "date": "19 de noviembre de 2026",
+        "hour": "17:00 - 17:45",
+        "description": "",
+        "authors": [
+            {
+                "name": "Francisco José Rodríguez Montes",
+                "charge": "QA engineer at Starion Group",
+                "bio": "Ingeniero en Electrónica Industrial, Quality Assurance Engineer e investigador predoctoral.",
+                "picture": "/img/fcorodriguez.png"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Small Data análisis de datos para Pymes.",
+        "date": "19 de noviembre de 2026",
+        "hour": "17:45 - 18:30",
+        "description": "",
+        "authors": [
+            {
+                "name": "Juan Vargas Segura",
+                "charge": "",
+                "bio": "Antiguo alumno del IES Al-Ándalus, promoción 2024."
             }
         ]
     },
