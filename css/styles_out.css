@@ -9,6 +9,7 @@
       "Courier New", monospace;
     --color-blue-400: oklch(70.7% 0.165 254.624);
     --color-sky-50: oklch(.977 .013 236.62);
+    --color-sky-100: oklch(.951 .026 236.824);
     --color-sky-200: oklch(.901 .058 230.902);
     --color-sky-600: oklch(.588 .158 241.966);
     --color-sky-800: oklch(.443 .11 240.79);
@@ -392,6 +393,9 @@
   }
   .bg-sky-50 {
     background-color: var(--color-sky-50);
+  }
+  .bg-sky-100 {
+    background-color: var(--color-sky-100);
   }
   .bg-purple-50 {
     background-color: var(--color-purple-50);
