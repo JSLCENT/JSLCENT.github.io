@@ -89,15 +89,16 @@
     },
     {
         "id": 7,
-        "name": "Uso de Microcontroladores ESP32 con sensores",
-        "date": "18 de noviembre de 2026",
+        "name": "Ciberseguridad con IA",
+        "date": "19 de noviembre de 2026",
         "hour": "19:00 - 19:45",
-        "description": "Charla acerca del uso de Microcontroladores ESP32 con sensores y su conexión con Angular.",
+        "description": "Charla acerca del uso de IA en ciberseguridad.",
         "authors": [
             {
-                "name": "Raúl Río",
-                "charge": "",
-                "bio": "Antiguo alumno del IES Al-Andalus y trabajador de IkosTech."
+                "name": "Cayetano de Juan Ubeda",
+                "charge": "Auditor y formador en ciberseguridad",
+                "bio": "Auditor Senior. Más de 20 años de experiencia como desarrollador, en sectores de gestión y utilidades de ciberseguridad. Formador de formadores, He impartido clases en el Servicio Andaluz De Salud (SAS), Fundación Andaluza Fondo de Formación y Empleo (FAFFE), Fundación ONCE.",
+                "picture": "/img/cayetano.png"
             }
         ]
     },
@@ -142,16 +143,15 @@
     },
     {
         "id": 11,
-        "name": "Ciberseguridad con IA",
-        "date": "19 de noviembre de 2026",
-        "hour": "11:45 - 12:45",
-        "description": "Charla acerca del uso de IA en ciberseguridad.",
+        "name": "Uso de Microcontroladores ESP32 con sensores",
+        "date": "18 de noviembre de 2026",
+        "hour": "10:15 - 11:15",
+        "description": "Charla acerca del uso de Microcontroladores ESP32 con sensores y su conexión con Angular.",
         "authors": [
             {
-                "name": "Cayetano de Juan Ubeda",
-                "charge": "Auditor y formador en ciberseguridad",
-                "bio": "Auditor Senior. Más de 20 años de experiencia como desarrollador, en sectores de gestión y utilidades de ciberseguridad. Formador de formadores, He impartido clases en el Servicio Andaluz De Salud (SAS), Fundación Andaluza Fondo de Formación y Empleo (FAFFE), Fundación ONCE.",
-                "picture": "/img/cayetano.png"
+                "name": "Raúl Río",
+                "charge": "",
+                "bio": "Antiguo alumno del IES Al-Andalus y trabajador de IkosTech."
             }
         ]
     },
