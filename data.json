@@ -59,24 +59,9 @@
     },
     {
         "id": 5,
-        "name": "Evolucion del ciberdelito",
-        "date": "18 de noviembre de 2026",
-        "hour": "17:00 - 17:45",
-        "description": "",
-        "authors": [
-            {
-                "name": "Jose Antonio Álvarez Bermejo",
-                "charge": "Profesor de la Universidad de Almería",
-                "bio": "Profesor de la universidad de Almería con amplia experiencia en ciberdefensa.",
-                "picture": "/img/bermejo.png"
-            }
-        ]
-    },
-    {
-        "id": 6,
         "name": "Introducción a la globalización e internacionalización (videoconferencia)",
         "date": "18 de noviembre de 2026",
-        "hour": "17:45 - 18:30",
+        "hour": "17:00 - 18:00",
         "description": "Breve introduccion a la internacionalizacion y globalización de aplicaciones informáticas. Cómo estar listo para dar el gran salto.",
         "authors": [
             {
@@ -88,10 +73,25 @@
         ]
     },
     {
+        "id": 6,
+        "name": "Evolucion del ciberdelito",
+        "date": "18 de noviembre de 2026",
+        "hour": "18:00 - 19:00",
+        "description": "",
+        "authors": [
+            {
+                "name": "Jose Antonio Álvarez Bermejo",
+                "charge": "Profesor de la Universidad de Almería",
+                "bio": "Profesor de la universidad de Almería con amplia experiencia en ciberdefensa.",
+                "picture": "/img/bermejo.png"
+            }
+        ]
+    },
+    {
         "id": 7,
         "name": "Ciberseguridad con IA",
         "date": "19 de noviembre de 2026",
-        "hour": "19:00 - 19:45",
+        "hour": "19:15 - 20:15",
         "description": "Charla acerca del uso de IA en ciberseguridad.",
         "authors": [
             {
@@ -106,7 +106,7 @@
         "id": 8,
         "name": "Charlas rápidas con los ponentes",
         "date": "18 de noviembre de 2026",
-        "hour": "19:45 - 20:30",
+        "hour": "20:15 - 21:15",
         "description": "Charlas rápidas con los ponentes, moderadas por los alumnos del IES Al-Andalus de Formación Profesional.",
         "authors": [
             {
@@ -143,15 +143,16 @@
     },
     {
         "id": 11,
-        "name": "Uso de Microcontroladores ESP32 con sensores",
+        "name": "Software, IoT e IA aplicada a la agricultura",
         "date": "18 de noviembre de 2026",
         "hour": "10:15 - 11:15",
         "description": "Charla acerca del uso de Microcontroladores ESP32 con sensores y su conexión con Angular.",
         "authors": [
             {
                 "name": "Raúl Río",
-                "charge": "",
-                "bio": "Antiguo alumno del IES Al-Andalus y trabajador de IkosTech."
+                "charge": "Embedded software development lead.",
+                "bio": "Antiguo alumno del IES Al-Andalus. Lidera el desarrollo de soluciones tecnológicas, combinando firmware, electrónica, comunicaciones y desarrollo full-stack, participando en la arquitectura, coordinación e implementación de proyectos de I+D+i.",
+                "picture": "/img/RaulRio.png"
             }
         ]
     },
@@ -173,7 +174,7 @@
         "id": 13,
         "name": "Enseñar a una IA a razonar sobre ciberataques.",
         "date": "19 de noviembre de 2026",
-        "hour": "17:00 - 17:45",
+        "hour": "17:00 - 18:00",
         "description": "",
         "authors": [
             {
@@ -188,7 +189,7 @@
         "id": 14,
         "name": "Small Data análisis de datos para Pymes.",
         "date": "19 de noviembre de 2026",
-        "hour": "17:45 - 18:30",
+        "hour": "18:00 - 19:00",
         "description": "",
         "authors": [
             {
@@ -202,7 +203,7 @@
         "id": 15,
         "name": "Gestión de proyectos OSS en la era de la IA",
         "date": "19 de noviembre de 2026",
-        "hour": "19:00 - 19:45",
+        "hour": "19:15 - 20:15",
         "description": "",
         "authors": [
             {
@@ -217,7 +218,7 @@
         "id": 16,
         "name": "Charlas rápidas con los ponentes",
         "date": "19 de noviembre de 2026",
-        "hour": "19:45 - 20:30",
+        "hour": "20:15 - 21:15",
         "description": "Charlas rápidas con los ponentes, moderadas por los alumnos del IES Al-Andalus de Formación Profesional.",
         "authors": [
             {
