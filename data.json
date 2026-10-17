@@ -7,9 +7,10 @@
         "description": "",
         "authors": [
             {
-                "name": "Germán Morales",
-                "charge": "",
-                "bio": "Germán Morales..."
+                "name": "Germán Roche Bonilla",
+                "charge": "Founder @ SDS - FIELDS",
+                "bio": "Germán Roche Bonilla ha sido profesor de Informática y es el creador de South Desert Studio, empresa desarrolladora de software para el comercio agrícola y reservas.",
+                "picture": "/img/GermanRoche.png"
             }
         ]
     },
