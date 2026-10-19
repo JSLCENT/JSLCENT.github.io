@@ -91,7 +91,7 @@
     {
         "id": 7,
         "name": "Ciberseguridad con IA",
-        "date": "19 de noviembre de 2026",
+        "date": "18 de noviembre de 2026",
         "hour": "19:15 - 20:15",
         "description": "Charla acerca del uso de IA en ciberseguridad.",
         "authors": [
@@ -145,7 +145,7 @@
     {
         "id": 11,
         "name": "Software, IoT e IA aplicada a la agricultura",
-        "date": "18 de noviembre de 2026",
+        "date": "19 de noviembre de 2026",
         "hour": "10:15 - 11:15",
         "description": "Charla acerca del uso de Microcontroladores ESP32 con sensores y su conexión con Angular.",
         "authors": [
@@ -204,7 +204,7 @@
         "id": 15,
         "name": "Gestión de proyectos OSS en la era de la IA",
         "date": "19 de noviembre de 2026",
-        
+
         "hour": "19:15 - 20:15",
         "description": "",
         "authors": [
