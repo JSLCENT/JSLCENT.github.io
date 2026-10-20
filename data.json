@@ -143,6 +143,21 @@
         ]
     },
     {
+        "id": 10,
+        "name": "Grupo de control automático y robótica",
+        "date": "19 de noviembre de 2026",
+        "hour": "10:15 - 11:15",
+        "description": "Charla acerca del grupo de control automático y robótica.",
+        "authors": [
+            {
+                "name": "Rubén Avelino González Morales",
+                "charge": "Field Engineer en UAL",
+                "bio": "Ingeniero Doctor en Informática por la UAL, miembro del grupo de invesigación ARM (Automatic Control, Robotics and Mechatronics)",
+                "picture": "/img/ruben.png"
+            }
+        ]
+    },
+    {
         "id": 11,
         "name": "Software, IoT e IA aplicada a la agricultura",
         "date": "19 de noviembre de 2026",
