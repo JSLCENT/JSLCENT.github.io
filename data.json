@@ -219,14 +219,13 @@
         "id": 15,
         "name": "Gestión de proyectos OSS en la era de la IA",
         "date": "19 de noviembre de 2026",
-
+        "description": "Una charla acerca de la gestión de proyectos de Código Abierto en la era de la Inteligencia Artificial (IA). Se mostrarán los pros y contras de la gestión de proyectos OSS, así como las mejores prácticas y herramientas disponibles para facilitar la colaboración y el desarrollo de software en un entorno de código abierto y viendo como la IA no siempre es la mejor opción para la gestión de proyectos OSS.",
         "hour": "19:15 - 20:15",
-        "description": "",
         "authors": [
             {
                 "name": "Víctor Suárez",
                 "charge": "Profesor del IES La Puebla",
-                "bio": "Víctor Suárez es un profesor de enseñanza secundaria de la especialidad de Informática, actuelmente en el IES La Puebla.",
+                "bio": "Víctor Suárez es un profesor de enseñanza secundaria de la especialidad de Informática, siempre esta tratando de aprender nuevas cosas. Actualmente es profesor del IES La Puebla.",
                 "picture": "/img/victor.png"
             }
         ]
