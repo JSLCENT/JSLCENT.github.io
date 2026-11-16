@@ -75,16 +75,16 @@
     },
     {
         "id": 6,
-        "name": "Evolucion del ciberdelito",
-        "date": "18 de noviembre de 2026",
-        "hour": "18:00 - 19:00",
+        "name": "Enseñar a una IA a razonar sobre ciberataques.",
+        "date": "19 de noviembre de 2026",
+        "hour": "16:00 - 19:00",
         "description": "",
         "authors": [
             {
-                "name": "Jose Antonio Álvarez Bermejo",
-                "charge": "Profesor de la Universidad de Almería",
-                "bio": "Profesor de la universidad de Almería con amplia experiencia en ciberdefensa.",
-                "picture": "/img/bermejo.png"
+                "name": "Francisco José Rodríguez Montes",
+                "charge": "QA engineer at Starion Group",
+                "bio": "Ingeniero en Electrónica Industrial, Quality Assurance Engineer e investigador predoctoral.",
+                "picture": "/img/fcorodriguez.png"
             }
         ]
     },
@@ -188,16 +188,16 @@
     },
     {
         "id": 13,
-        "name": "Enseñar a una IA a razonar sobre ciberataques.",
-        "date": "19 de noviembre de 2026",
+        "name": "Evolucion del ciberdelito",
+        "date": "18 de noviembre de 2026",
         "hour": "17:00 - 18:00",
         "description": "",
         "authors": [
             {
-                "name": "Francisco José Rodríguez Montes",
-                "charge": "QA engineer at Starion Group",
-                "bio": "Ingeniero en Electrónica Industrial, Quality Assurance Engineer e investigador predoctoral.",
-                "picture": "/img/fcorodriguez.png"
+                "name": "Jose Antonio Álvarez Bermejo",
+                "charge": "Profesor de la Universidad de Almería",
+                "bio": "Profesor de la universidad de Almería con amplia experiencia en ciberdefensa.",
+                "picture": "/img/bermejo.png"
             }
         ]
     },
