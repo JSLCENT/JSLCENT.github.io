@@ -16,15 +16,16 @@
     },
     {
         "id": 2,
-        "name": "",
+        "name": "Cómo destacar en una entrevista de trabajo",
         "date": "18 de noviembre de 2026",
         "hour": "10:15 - 11:15",
         "description": "",
         "authors": [
             {
-                "name": "Alejandro Manuel López",
-                "charge": "",
-                "bio": ""
+                "name": "Alejandro Manuel López Garrido",
+                "charge": "CEO de Hundred Games.",
+                "bio": "Emprendedor digital en el ámbito del talento. Entusiasmado por la innovación y el desarrollo de tecnologías aplicadas al Capital Humano y, particularmente, en construir proyectos de selección, evaluación y desarrollo de personas con las tecnologías más innovadoras.",
+                "picture": "/img/AlejandroManuel.png"
             }
         ]
     },
@@ -162,7 +163,7 @@
         "name": "Software, IoT e IA aplicada a la agricultura",
         "date": "19 de noviembre de 2026",
         "hour": "10:15 - 11:15",
-        "description": "Charla acerca del uso de Microcontroladores ESP32 con sensores y su conexión con Angular.",
+        "description": "Charla acerca del uso de Microcontroladores ESP32 con sensores y su uso en IoT para la agricultura.",
         "authors": [
             {
                 "name": "Raúl Río",
@@ -174,7 +175,7 @@
     },
     {
         "id": 12,
-        "name": "",
+        "name": "Manual de supervivencia para el desarrollador Junior en el infierno, también llamado mercado laboral",
         "date": "19 de noviembre de 2026",
         "hour": "12:45 - 13:45",
         "description": "",
@@ -203,7 +204,7 @@
     },
     {
         "id": 14,
-        "name": "Small Data análisis de datos para Pymes.",
+        "name": "Small Data análisis de datos para Pymes",
         "date": "19 de noviembre de 2026",
         "hour": "18:00 - 19:00",
         "description": "",
