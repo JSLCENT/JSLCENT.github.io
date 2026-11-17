@@ -129,7 +129,7 @@
     },
     {
         "id": 9,
-        "name": "",
+        "name": "GestionaroconIA: Inteligencia Abundante™",
         "date": "19 de noviembre de 2026",
         "hour": "9:15 - 10:15",
         "description": "Inteligencia Abundante™: de la información disponible a la inteligencia aplicada.",
@@ -144,10 +144,10 @@
     },
     {
         "id": 10,
-        "name": "Grupo de control automático y robótica",
+        "name": "Automatización y robótica en invernaderos",
         "date": "19 de noviembre de 2026",
         "hour": "10:15 - 11:15",
-        "description": "Charla acerca del grupo de control automático y robótica.",
+        "description": "Charla acerca de la automatización y robótica en invernaderos.",
         "authors": [
             {
                 "name": "Rubén Avelino González Morales",
