@@ -162,7 +162,7 @@
         "id": 11,
         "name": "Software, IoT e IA aplicada a la agricultura",
         "date": "19 de noviembre de 2026",
-        "hour": "10:15 - 11:15",
+        "hour": "11:45 - 12:45",
         "description": "Charla acerca del uso de Microcontroladores ESP32 con sensores y su uso en IoT para la agricultura.",
         "authors": [
             {
