@@ -156,6 +156,12 @@
                 "bio": "Ingeniero Doctor en Informática por la UAL, miembro del grupo de invesigación ARM (Automatic Control, Robotics and Mechatronics)",
                 "picture": "/img/ruben.png"
             }
+        ],
+        "resources": [
+            {
+                "name": "Presentación de la charla",
+                "url": "./resources/Charla-AlAndalus.pdf"
+            }
         ]
     },
     {
@@ -171,6 +177,12 @@
                 "bio": "Antiguo alumno del IES Al-Andalus. Lidera el desarrollo de soluciones tecnológicas, combinando firmware, electrónica, comunicaciones y desarrollo full-stack, participando en la arquitectura, coordinación e implementación de proyectos de I+D+i.",
                 "picture": "/img/RaulRio.png"
             }
+        ],
+        "resources": [
+            {
+                "name": "Presentación de la charla",
+                "url": "./resources/IKOS_IES_Al_Andalus_ampliada.pdf"
+            }
         ]
     },
     {
@@ -185,6 +197,12 @@
                 "charge": "Apps Developer en GRS GranSolar Group",
                 "bio": "Antiguo alumno del IES Al-Ándalus, promoción 2025. Me incorporé al equipo de GranSolar inmediatamente después de terminar las prácticas. Actualmente trabajo combinando el desarrollo de nuevos algoritmos, aplicaciones de escritorio e integración de bases de datos en el sector de las renovables. Ajedrecista en mis ratos libres.",
                 "picture": "/img/JaviPalmero.png"
+            }
+        ],
+        "resources": [
+            {
+                "name": "Presentación de la charla",
+                "url": "./resources/presJavierPalmero.html"
             }
         ]
     },
